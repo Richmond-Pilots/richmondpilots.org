@@ -1,0 +1,82 @@
+body {
+  padding: 10px;
+  font-size: 14pt;
+}
+h2 {
+  text-align: left;
+}
+table th, td {
+  padding: 4px 17px 4px 0;
+}
+td {
+  font-size: 10pt;
+}
+.starter-template {
+  padding: 10px 15px;
+  text-align: center;
+}
+.sub {
+  text-align: left;
+}
+
+.error input, .error select {
+    border: 2px red solid;
+}
+
+ul.errorlist
+{
+  list-style-type: none;
+  padding-left: 2px;
+}
+
+ul.errorlist li
+{
+  color: red;
+  font-size: larger;
+}
+
+p#planes {
+  padding: 30px;
+}
+
+p#planes img {
+  border: 1px solid darkgray;
+}
+
+#logo {
+    width: 35%;
+}
+
+@media screen and (max-width: 991px) {
+    p#planes {
+        padding: 30px 0px;
+    }
+
+    p#planes img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    body {
+        font-size: 12pt;
+    }
+
+    h2, .h2 {
+        font-size: 24px;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0;
+    }
+}
