@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tach Time Splitter</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c10;
+    --panel: #0f1318;
+    --border: #1e2a38;
+    --accent: #00c9ff;
+    --accent2: #f0a500;
+    --text: #c8d8e8;
+    --muted: #7a9ab0;
+    --success: #00e5a0;
+    --card-bg: #111820;
+    --glow: 0 0 18px rgba(0,201,255,0.25);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+    background-image:
+      radial-gradient(ellipse at 20% 0%, rgba(0,80,130,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 100%, rgba(0,60,100,0.12) 0%, transparent 60%),
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255,255,255,0.02) 39px, rgba(255,255,255,0.02) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,255,255,0.02) 39px, rgba(255,255,255,0.02) 40px);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 42px;
+  }
+
+  .logo-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+
+  .prop-icon {
+    width: 38px; height: 38px;
+    animation: spin 8s linear infinite;
+    opacity: 0.85;
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-shadow: 0 0 24px rgba(0,201,255,0.5);
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 520px;
+    padding: 32px 36px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.04);
+    position: relative;
+  }
+
+  .panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  }
+
+  .field-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .field.full { grid-column: 1 / -1; }
+
+  label {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  input[type="number"] {
+    background: #080b0f;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    color: var(--accent);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    padding: 10px 14px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+  input[type="number"]:focus {
+    border-color: var(--accent);
+    box-shadow: var(--glow);
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 24px 0;
+  }
+
+  .btn-calc {
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    border: 1.5px solid var(--accent);
+    border-radius: 3px;
+    color: var(--accent);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-calc:hover {
+    background: rgba(0,201,255,0.08);
+    box-shadow: var(--glow), inset 0 0 20px rgba(0,201,255,0.05);
+  }
+
+  .btn-calc:active {
+    background: rgba(0,201,255,0.15);
+  }
+
+  .btn-calc::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent 0%, rgba(0,201,255,0.15) 50%, transparent 100%);
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+  }
+
+  .btn-calc:hover::after { transform: translateX(100%); }
+
+  /* Error */
+  .error-msg {
+    color: #ff5c5c;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    min-height: 1em;
+    text-align: center;
+  }
+
+  /* Results */
+  #results-section {
+    width: 100%;
+    max-width: 520px;
+    margin-top: 28px;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
+  #results-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .results-header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-left: 4px;
+  }
+
+  .summary-bar {
+    background: rgba(240,165,0,0.06);
+    border: 1px solid rgba(240,165,0,0.25);
+    border-radius: 3px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    color: var(--text);
+  }
+
+  .summary-bar span { color: var(--accent2); font-size: 0.9rem; }
+
+  .pilot-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pilot-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 14px 18px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.2s;
+    animation: cardIn 0.3s ease both;
+  }
+
+  .pilot-card:hover { border-color: rgba(0,201,255,0.3); }
+
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateX(-8px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+
+  .pilot-num {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: var(--accent2);
+    min-width: 36px;
+  }
+
+  .tach-block { display: flex; flex-direction: column; gap: 3px; }
+
+  .tach-label {
+    font-size: 0.58rem;
+    letter-spacing: 0.22em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .tach-value {
+    font-size: 1.05rem;
+    color: var(--success);
+  }
+
+  .tach-diff {
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  .tach-value-row {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .btn-copy {
+    background: transparent;
+    border: 1px solid var(--muted);
+    border-radius: 3px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 2px 5px;
+    font-size: 0.65rem;
+    line-height: 1;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+  }
+
+  .btn-copy:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(0,201,255,0.07);
+  }
+
+  .btn-copy.copied {
+    border-color: var(--success);
+    color: var(--success);
+    background: rgba(0,229,160,0.08);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-line">
+    <svg class="prop-icon" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="19" cy="19" r="4" fill="#00c9ff"/>
+      <ellipse cx="19" cy="8" rx="3.5" ry="8" fill="#00c9ff" opacity="0.7" transform="rotate(0 19 19)"/>
+      <ellipse cx="19" cy="8" rx="3.5" ry="8" fill="#00c9ff" opacity="0.7" transform="rotate(120 19 19)"/>
+      <ellipse cx="19" cy="8" rx="3.5" ry="8" fill="#00c9ff" opacity="0.7" transform="rotate(240 19 19)"/>
+    </svg>
+    <h1>TACH SPLITTER</h1>
+  </div>
+  <div class="subtitle">Flight Time Distribution Calculator</div>
+</header>
+
+<div class="panel">
+  <div class="field-group">
+    <div class="field">
+      <label>Start Tach</label>
+      <input type="number" id="startTach" placeholder="0000.0" step="0.1" min="0">
+    </div>
+    <div class="field">
+      <label>End Tach</label>
+      <input type="number" id="endTach" placeholder="0000.0" step="0.1" min="0">
+    </div>
+    <div class="field full">
+      <label>Number of Pilots</label>
+      <input type="number" id="numPilots" placeholder="2" step="1" min="1" max="20">
+    </div>
+  </div>
+  <hr class="divider">
+  <button class="btn-calc" onclick="calculate()">▶ &nbsp; Calculate Split</button>
+  <div class="error-msg" id="errorMsg"></div>
+</div>
+
+<div id="results-section">
+  <div class="results-header">— Pilot Assignments —</div>
+  <div class="summary-bar">
+    <div>Total Tach Time &nbsp;<span id="totalTime">—</span></div>
+    <div>Per Pilot &nbsp;<span id="perPilot">—</span></div>
+  </div>
+  <div class="pilot-cards" id="pilotCards"></div>
+</div>
+
+<script>
+  // Allow Enter key to trigger calculate
+  document.addEventListener('keydown', e => { if (e.key === 'Enter') calculate(); });
+
+  function fmt(n) {
+    return n.toFixed(1);
+  }
+
+  function calculate() {
+    const errorEl = document.getElementById('errorMsg');
+    errorEl.textContent = '';
+
+    const start = parseFloat(document.getElementById('startTach').value);
+    const end   = parseFloat(document.getElementById('endTach').value);
+    const n     = parseInt(document.getElementById('numPilots').value);
+
+    if (isNaN(start) || isNaN(end) || isNaN(n)) {
+      errorEl.textContent = '⚠ Please fill in all three fields.';
+      return;
+    }
+    if (end <= start) {
+      errorEl.textContent = '⚠ End tach must be greater than start tach.';
+      return;
+    }
+    if (n < 1 || n > 20) {
+      errorEl.textContent = '⚠ Number of pilots must be between 1 and 20.';
+      return;
+    }
+
+    const total = end - start;
+    const share = total / n;
+
+    document.getElementById('totalTime').textContent = fmt(total);
+    document.getElementById('perPilot').textContent  = fmt(share);
+
+    const cards = document.getElementById('pilotCards');
+    cards.innerHTML = '';
+
+    for (let i = 0; i < n; i++) {
+      const pStart = start + share * i;
+      const pEnd   = (i === n - 1) ? end : start + share * (i + 1);
+
+      const card = document.createElement('div');
+      card.className = 'pilot-card';
+      card.style.animationDelay = `${i * 60}ms`;
+      const copyIcon = `<svg width="10" height="10" viewBox="0 0 12 12" fill="none"><rect x="4" y="4" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M1 8V1h7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      card.innerHTML = `
+        <div class="pilot-num">P${i + 1}</div>
+        <div class="tach-block">
+          <div class="tach-label">Start Tach</div>
+          <div class="tach-value-row">
+            <div class="tach-value">${fmt(pStart)}</div>
+            <button class="btn-copy" data-val="${fmt(pStart)}">${copyIcon}</button>
+          </div>
+        </div>
+        <div class="tach-block">
+          <div class="tach-label">End Tach</div>
+          <div class="tach-value-row">
+            <div class="tach-value">${fmt(pEnd)}</div>
+            <button class="btn-copy" data-val="${fmt(pEnd)}">${copyIcon}</button>
+          </div>
+          <div class="tach-diff">+${fmt(pEnd - pStart)}</div>
+        </div>
+      `;
+      cards.appendChild(card);
+    }
+
+    const section = document.getElementById('results-section');
+    section.classList.add('visible');
+    section.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // Event delegation for copy buttons
+  document.getElementById('pilotCards').addEventListener('click', function(e) {
+    const btn = e.target.closest('.btn-copy');
+    if (!btn) return;
+    const val = btn.dataset.val;
+    navigator.clipboard.writeText(val).then(() => {
+      btn.classList.add('copied');
+      const prev = btn.innerHTML;
+      btn.innerHTML = `<svg width="10" height="10" viewBox="0 0 12 12" fill="none"><polyline points="1,6 4,9 11,2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      setTimeout(() => {
+        btn.classList.remove('copied');
+        btn.innerHTML = `<svg width="10" height="10" viewBox="0 0 12 12" fill="none"><rect x="4" y="4" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M1 8V1h7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      }, 1500);
+    });
+  });
+</script>
+</body>
+</html>
