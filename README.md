@@ -6,6 +6,10 @@ Static website for [Richmond Pilots](https://richmondpilots.org), a 501(c)(7) eq
 
 Currently hosted on AWS S3 + CloudFront, served at the apex domain `richmondpilots.org`.
 
+## PR previews
+
+Every pull request from a branch in this repo is deployed to `https://richmondpilots.org/previews/<branch>/index.html` by `.github/workflows/preview.yml`, and a bot comment on the PR links to it. Previews update on each push, are marked `noindex`, and are deleted when the PR closes. The production deploy excludes `previews/*` so it never deletes them.
+
 ## Stack
 
 Plain HTML + CSS, Bootstrap 3.3.4 via CDN. No build step — files are served as-is.

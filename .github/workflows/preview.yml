@@ -1,0 +1,98 @@
+name: PR preview
+
+# Deploys each PR branch to https://richmondpilots.org/previews/<branch>/ in the
+# production bucket, comments the link on the PR, and removes it when the PR closes.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+permissions:
+  id-token: write # GitHub OIDC -> AWS
+  contents: read
+  pull-requests: write # post/update the preview comment
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    # Fork PRs can't get AWS credentials; skip them.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    # Uses the production environment for its AWS variables and the role's
+    # OIDC trust. Previews live under previews/, which deploy.yml never touches.
+    environment: production
+    env:
+      BRANCH: ${{ github.event.pull_request.head.ref }}
+      PR: ${{ github.event.pull_request.number }}
+      GH_TOKEN: ${{ github.token }}
+      MARKER: "<!-- branch-preview -->"
+    steps:
+      - name: Compute preview path
+        run: |
+          slug=$(printf '%s' "$BRANCH" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g' | cut -c1-60)
+          echo "SLUG=$slug" >> "$GITHUB_ENV"
+          echo "PREFIX=previews/$slug" >> "$GITHUB_ENV"
+          echo "URL=https://richmondpilots.org/previews/$slug/index.html" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+        if: github.event.action != 'closed'
+        with:
+          ref: ${{ github.event.pull_request.head.sha }} # the branch as-is, not merged with main
+
+      - name: Mark preview pages noindex
+        if: github.event.action != 'closed'
+        run: |
+          # Keep search engines from indexing previews as duplicates of the live site.
+          find . -name '*.html' -not -path './.git/*' -print0 |
+            xargs -0 sed -i 's#<head>#<head>\n<meta name="robots" content="noindex, nofollow"/>#'
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: Sync branch to preview path
+        if: github.event.action != 'closed'
+        run: |
+          aws s3 sync . "s3://${{ vars.S3_BUCKET }}/$PREFIX" \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude ".gitignore" \
+            --exclude "README.md" \
+            --exclude "robots.txt" \
+            --exclude "sitemap.xml"
+
+      - name: Remove preview
+        if: github.event.action == 'closed'
+        run: aws s3 rm "s3://${{ vars.S3_BUCKET }}/$PREFIX" --recursive
+
+      - name: Invalidate CloudFront cache for the preview
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}" \
+            --paths "/$PREFIX/*"
+
+      - name: Comment preview link on the PR
+        run: |
+          if [ "${{ github.event.action }}" = "closed" ]; then
+            body="$MARKER
+          **Preview removed** — this PR is closed."
+          else
+            sha=$(printf '%s' "${{ github.event.pull_request.head.sha }}" | cut -c1-7)
+            body="$MARKER
+          **Preview:** $URL
+
+          Built from \`$sha\` · updates on every push · removed when the PR closes."
+          fi
+          id=$(gh api "repos/${{ github.repository }}/issues/$PR/comments" --paginate \
+                 --jq ".[] | select(.body | startswith(\"$MARKER\")) | .id" | head -1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/${{ github.repository }}/issues/comments/$id" -f body="$body" > /dev/null
+          else
+            gh api "repos/${{ github.repository }}/issues/$PR/comments" -f body="$body" > /dev/null
+          fi
