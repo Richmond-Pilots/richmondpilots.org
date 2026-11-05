@@ -26,10 +26,13 @@ jobs:
           role-to-assume: ${{ vars.AWS_ROLE_ARN }}
           aws-region: ${{ vars.AWS_REGION }}
 
+      # previews/* holds PR branch previews (see preview.yml); exclude it so
+      # --delete doesn't wipe them on every production deploy.
       - name: Sync site to S3 (deletes files no longer in the repo)
         run: |
           aws s3 sync . "s3://${{ vars.S3_BUCKET }}" \
             --delete \
+            --exclude "previews/*" \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude ".gitignore" \
