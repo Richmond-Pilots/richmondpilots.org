@@ -1,6 +1,6 @@
 # richmondpilots.org
 
-Static website for [Richmond Pilots](https://richmondpilots.org), a 501(c)(7) equity-based flying club based at [Linden Airport (KLDJ)](https://www.airnav.com/airport/KLDJ) in NJ. The club has been in continuous operation since 1966 and operates two instrument-capable Cessna 172s.
+Static website for [Richmond Pilots](https://richmondpilots.org), a 501(c)(7) equity-based flying club based at [Linden Airport (KLDJ)](https://www.airnav.com/airport/KLDJ) in NJ. The club has been in continuous operation since 1967 and operates two instrument-capable Cessna 172s.
 
 ## Hosting
 
