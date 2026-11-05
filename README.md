@@ -11,11 +11,13 @@ Currently hosted on AWS S3 + CloudFront, served at the apex domain `richmondpilo
 Plain HTML + CSS, Bootstrap 3.3.4 via CDN. No build step — files are served as-is.
 
 - `index.html` — single-page site (welcome, meetings, fees, joining, instruction, contact)
-- `richmond.css` — site-specific overrides on top of Bootstrap
-- `favicon.ico`, `logo.jpg`, `logo-square.png` — branding
-- `*.jpg` / `*.png` — section imagery (members, planes, camping, sky, etc.)
+- `css/richmond.css` — site-specific overrides on top of Bootstrap
+- `img/` — logo and section imagery (members, planes, camping, sky, etc.)
+- `docs/` — member-facing downloads (see below)
+- `Avtools/` — standalone pilot tools (e.g. tach split calculator)
+- `favicon.ico`, `zoho-domain-verification.html` — kept at the root, where browsers and Zoho expect them
 
-## Member-facing assets
+## Member-facing assets (`docs/`)
 
 - `RPC_Membership_Application.pdf` — application form linked from the Joining section
 - `WB_5272R.xlsx` — weight & balance sheet for Cessna 172M, N5272R
