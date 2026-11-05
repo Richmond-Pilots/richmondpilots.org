@@ -20,6 +20,7 @@ Plain HTML + CSS, Bootstrap 3.3.4 via CDN. No build step — files are served as
 - `docs/` — member-facing downloads (see below)
 - `Avtools/` — standalone pilot tools (e.g. tach split calculator)
 - `favicon.ico`, `zoho-domain-verification.html` — kept at the root, where browsers and Zoho expect them
+- `robots.txt`, `sitemap.xml` — crawler rules (search and AI crawlers allowed) and the sitemap; bump `<lastmod>` when content changes
 
 ## Member-facing assets (`docs/`)
 
@@ -28,7 +29,13 @@ Plain HTML + CSS, Bootstrap 3.3.4 via CDN. No build step — files are served as
 - `WB_38PD.xlsx` — weight & balance sheet for Cessna 172S, N38PD
 - `final.pdf` — bylaws / club document linked from the site
 
-When updating hourly rates or membership fees, edit the Fees section of `index.html` directly.
+When updating hourly rates or membership fees, edit the Fees section of `index.html` directly. Also update:
+
+- the JSON-LD block in the `<head>` of `index.html` (`makesOffer` prices and `validFrom` date), and the meta/Open Graph descriptions if the rate range changes
+- the "Rates last updated" line at the bottom of the page
+- `<lastmod>` in `sitemap.xml`
+
+Meeting time/place changes also need the `Event` entry in the JSON-LD updated. Validate the JSON-LD after edits with [Google's Rich Results Test](https://search.google.com/test/rich-results) or the [Schema.org validator](https://validator.schema.org/).
 
 ## Local preview
 
