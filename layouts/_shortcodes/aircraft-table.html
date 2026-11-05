@@ -1,0 +1,11 @@
+{{- $aircraft := hugo.Data.club.aircraft -}}
+{{- $showAvionics := false -}}
+{{- range $aircraft }}{{ if .avionics }}{{ $showAvionics = true }}{{ end }}{{ end -}}
+<div class="table-scroll"><table class="data-table">
+<thead><tr><th scope="col">Aircraft</th><th scope="col">Registration</th><th scope="col">Year</th><th scope="col">Engine</th>{{ if $showAvionics }}<th scope="col">Avionics</th>{{ end }}<th scope="col">Rate (tach, wet)</th><th scope="col">W&amp;B</th></tr></thead>
+<tbody>
+{{- range $aircraft }}
+<tr><td>{{ .model }}</td><td>{{ .tail }}</td><td>{{ .year }}</td><td>{{ .engine }}</td>{{ if $showAvionics }}<td>{{ .avionics }}</td>{{ end }}<td>${{ .rate }}/hour</td><td><a href="{{ .weight_balance | relURL }}">Download</a></td></tr>
+{{- end }}
+</tbody>
+</table></div>

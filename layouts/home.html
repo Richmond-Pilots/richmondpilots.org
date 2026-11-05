@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="hero"><div class="wrap">
+  <div class="hero-text">
+    {{ with .Params.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+    <h1>{{ .Params.heading }}</h1>
+    <p class="lede">{{ .Params.lede }}</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ partial "cta-url.html" . }}">{{ hugo.Data.club.cta_label }}</a>
+      <a class="btn btn-secondary" href="{{ "aircraft-and-rates/" | relURL }}">See aircraft and rates</a>
+    </div>
+  </div>
+  <figure class="hero-media">
+    <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Params.hero_alt }}" width="800" height="364">
+  </figure>
+</div></section>
+{{ .Content }}
+{{ end }}

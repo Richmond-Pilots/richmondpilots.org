@@ -29,6 +29,7 @@ jobs:
       PR: ${{ github.event.pull_request.number }}
       GH_TOKEN: ${{ github.token }}
       MARKER: "<!-- branch-preview -->"
+      HUGO_VERSION: "0.169.0"
     steps:
       - name: Compute preview path
         run: |
@@ -41,12 +42,25 @@ jobs:
         if: github.event.action != 'closed'
         with:
           ref: ${{ github.event.pull_request.head.sha }} # the branch as-is, not merged with main
+          fetch-depth: 0
+
+      - name: Install Hugo
+        if: github.event.action != 'closed'
+        run: |
+          curl -fsSL -o hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+          rm hugo.deb
+
+      - name: Build site
+        if: github.event.action != 'closed'
+        # Previews include draft pages; production does not.
+        run: hugo --buildDrafts --baseURL "$URL"
 
       - name: Mark preview pages noindex
         if: github.event.action != 'closed'
         run: |
           # Keep search engines from indexing previews as duplicates of the live site.
-          find . -name '*.html' -not -path './.git/*' -print0 |
+          find public -name '*.html' -print0 |
             xargs -0 sed -i 's#<head>#<head>\n<meta name="robots" content="noindex, nofollow"/>#'
 
       - name: Configure AWS credentials (OIDC)
@@ -58,12 +72,8 @@ jobs:
       - name: Sync branch to preview path
         if: github.event.action != 'closed'
         run: |
-          aws s3 sync . "s3://${{ vars.S3_BUCKET }}/$PREFIX" \
+          aws s3 sync public "s3://${{ vars.S3_BUCKET }}/$PREFIX" \
             --delete \
-            --exclude ".git/*" \
-            --exclude ".github/*" \
-            --exclude ".gitignore" \
-            --exclude "README.md" \
             --exclude "robots.txt" \
             --exclude "sitemap.xml"
 
