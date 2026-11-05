@@ -1,10 +1,11 @@
 {{- $current := . -}}
 {{- $hasGuides := where site.RegularPages "Section" "guides" -}}
 <header class="site-header"><div class="wrap">
-  <a class="brand" href="{{ "" | relURL }}"><img class="brand-logo" src="{{ "img/logo-square.png" | relURL }}" alt="" width="40" height="40"><span class="brand-name">Richmond Pilots</span></a>
+  <a class="brand" href="{{ "" | relURL }}"><img class="brand-logo" src="{{ "img/logo.jpg" | relURL }}" alt="" width="640" height="341"><span class="brand-name">Richmond Pilots</span></a>
   <nav class="site-nav" aria-label="Main"><ul>
     {{- range site.Menus.main }}
     {{- if and (eq .Name "Guides") (not $hasGuides) }}{{ continue }}{{ end }}
+    {{- if eq .PageRef "/" }}{{ continue }}{{ end }}
     <li><a href="{{ .PageRef | strings.TrimPrefix "/" | relURL }}{{ if ne .PageRef "/" }}/{{ end }}"{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
     {{- end }}
   </ul></nav>

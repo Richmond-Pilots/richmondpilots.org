@@ -5,7 +5,7 @@
 <thead><tr><th scope="col">Aircraft</th><th scope="col">Registration</th><th scope="col">Year</th><th scope="col">Engine</th>{{ if $showAvionics }}<th scope="col">Avionics</th>{{ end }}<th scope="col">Rate (tach, wet)</th><th scope="col">W&amp;B</th></tr></thead>
 <tbody>
 {{- range $aircraft }}
-<tr><td>{{ .model }}</td><td>{{ .tail }}</td><td>{{ .year }}</td><td>{{ .engine }}</td>{{ if $showAvionics }}<td>{{ .avionics }}</td>{{ end }}<td>${{ .rate }}/hour</td><td><a href="{{ .weight_balance | relURL }}">Download</a></td></tr>
+<tr><th scope="row">{{ .model }}</th><td data-label="Registration">{{ .tail }}</td><td data-label="Year">{{ .year }}</td><td data-label="Engine">{{ .engine }}</td>{{ if $showAvionics }}<td data-label="Avionics">{{ .avionics }}</td>{{ end }}<td data-label="Rate (tach, wet)">${{ .rate }}/hour</td><td data-label="W&amp;B"><a href="{{ .weight_balance | relURL }}">Download</a></td></tr>
 {{- end }}
 </tbody>
 </table></div>

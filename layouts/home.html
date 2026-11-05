@@ -10,7 +10,8 @@
     </div>
   </div>
   <figure class="hero-media">
-    <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Params.hero_alt }}" width="800" height="364">
+    {{- $size := images.Config (printf "static/%s" .Params.hero_image) }}
+    <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Params.hero_alt }}" width="{{ $size.Width }}" height="{{ $size.Height }}">
   </figure>
 </div></section>
 {{ .Content }}

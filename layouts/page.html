@@ -1,9 +1,7 @@
 {{ define "main" }}
-<section class="section"><div class="wrap">
-  <header class="page-header">
+<header class="page-header"><div class="wrap">
     <h1>{{ .Title }}</h1>
     {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
-  </header>
-</div></section>
+</div></header>
 {{ .Content }}
 {{ end }}

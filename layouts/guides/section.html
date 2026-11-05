@@ -1,9 +1,9 @@
 {{ define "main" }}
-<section class="section"><div class="wrap">
-  <header class="page-header">
+<header class="page-header"><div class="wrap">
     <h1>{{ .Title }}</h1>
     {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
-  </header>
+</div></header>
+<section class="section"><div class="wrap">
   <div class="grid">
     {{ range .RegularPages }}
     <article class="card">
