@@ -95,3 +95,22 @@ h1.site-title {
         padding: 0;
     }
 }
+
+table.specs {
+  width: auto;
+  font-size: 12pt;
+}
+
+table.specs td {
+  font-size: 12pt;
+}
+
+.source-note {
+  font-size: 11pt;
+  color: #777;
+}
+
+.faq h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
