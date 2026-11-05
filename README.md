@@ -35,6 +35,8 @@ When updating hourly rates or membership fees, edit the Fees section of `index.h
 - the "Rates last updated" line at the bottom of the page
 - `<lastmod>` in `sitemap.xml`
 
+Rate changes also touch the Aircraft table, the flying club vs. renting comparison (including the worked yearly totals), and the FAQ answers — both the visible text and the `FAQPage` entry in the JSON-LD, which must match the page word for word.
+
 Meeting time/place changes also need the `Event` entry in the JSON-LD updated. Validate the JSON-LD after edits with [Google's Rich Results Test](https://search.google.com/test/rich-results) or the [Schema.org validator](https://validator.schema.org/).
 
 ## Local preview

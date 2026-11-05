@@ -30,10 +30,17 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["SportsClub", "NGO"],
+      "@type": [
+        "SportsClub",
+        "NGO"
+      ],
       "@id": "https://richmondpilots.org/#club",
       "name": "Richmond Pilots",
-      "alternateName": ["Richmond Pilots Flying Club", "Richmond Pilots Associates", "Richmond Pilots Corp"],
+      "alternateName": [
+        "Richmond Pilots Flying Club",
+        "Richmond Pilots Associates",
+        "Richmond Pilots Corp"
+      ],
       "url": "https://richmondpilots.org/",
       "logo": "https://richmondpilots.org/img/logo-square.png",
       "image": "https://richmondpilots.org/img/planes.jpg",
@@ -56,7 +63,11 @@
           "addressCountry": "US"
         }
       },
-      "areaServed": ["New York City", "Staten Island", "New Jersey"],
+      "areaServed": [
+        "New York City",
+        "Staten Island",
+        "New Jersey"
+      ],
       "sameAs": [
         "https://airnav.com/airport/KLDJ/RICHMOND_PILOTS/link",
         "https://flightschools.fyi/flight-schools/richmond-pilots-kldj/"
@@ -65,7 +76,10 @@
         {
           "@type": "Offer",
           "name": "Cessna 172M N5272R rental (members)",
-          "itemOffered": {"@type": "Service", "name": "Cessna 172M aircraft rental, tach time, wet"},
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cessna 172M aircraft rental, tach time, wet"
+          },
           "priceSpecification": {
             "@type": "UnitPriceSpecification",
             "price": 150,
@@ -77,7 +91,10 @@
         {
           "@type": "Offer",
           "name": "Cessna 172S N38PD rental (members)",
-          "itemOffered": {"@type": "Service", "name": "Cessna 172S aircraft rental, tach time, wet"},
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cessna 172S aircraft rental, tach time, wet"
+          },
           "priceSpecification": {
             "@type": "UnitPriceSpecification",
             "price": 165,
@@ -91,20 +108,40 @@
           "name": "Club membership",
           "description": "$1,000 non-refundable admission fee, $2,550 refundable deposit, and $100 per month fixed expenses.",
           "priceSpecification": [
-            {"@type": "PriceSpecification", "name": "Admission fee (non-refundable)", "price": 1000, "priceCurrency": "USD"},
-            {"@type": "PriceSpecification", "name": "Deposit (refundable after 3 years, pro-rated before)", "price": 2550, "priceCurrency": "USD"},
-            {"@type": "UnitPriceSpecification", "name": "Monthly fixed expenses", "price": 100, "priceCurrency": "USD", "unitCode": "MON"}
+            {
+              "@type": "PriceSpecification",
+              "name": "Admission fee (non-refundable)",
+              "price": 1000,
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "PriceSpecification",
+              "name": "Deposit (refundable after 3 years, pro-rated before)",
+              "price": 2550,
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Monthly fixed expenses",
+              "price": 100,
+              "priceCurrency": "USD",
+              "unitCode": "MON"
+            }
           ]
         }
       ],
-      "event": {"@id": "https://richmondpilots.org/#meeting"}
+      "event": {
+        "@id": "https://richmondpilots.org/#meeting"
+      }
     },
     {
       "@type": "Event",
       "@id": "https://richmondpilots.org/#meeting",
       "name": "Richmond Pilots monthly club meeting",
       "description": "Monthly meeting open to pilots, members, prospective members and guests.",
-      "organizer": {"@id": "https://richmondpilots.org/#club"},
+      "organizer": {
+        "@id": "https://richmondpilots.org/#club"
+      },
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "isAccessibleForFree": true,
       "eventSchedule": {
@@ -131,7 +168,80 @@
       "@id": "https://richmondpilots.org/#website",
       "url": "https://richmondpilots.org/",
       "name": "Richmond Pilots",
-      "publisher": {"@id": "https://richmondpilots.org/#club"}
+      "publisher": {
+        "@id": "https://richmondpilots.org/#club"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://richmondpilots.org/#faq",
+      "url": "https://richmondpilots.org/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What flying clubs are near New York City?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Richmond Pilots is a non-profit flying club at Linden Airport (KLDJ) in Linden, New Jersey, just across the Goethals Bridge from Staten Island. Founded on Staten Island in 1967, it serves pilots from New York City, Staten Island and North Jersey, with two IFR Cessna 172s at $150–$165 per hour wet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to join a flying club in New Jersey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Joining Richmond Pilots costs a $1,000 non-refundable admission fee plus a $2,550 deposit. After that, members pay $100 per month in fixed expenses and $150–$165 per hour, tach time, fuel included, for the aircraft they fly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a student pilot join a flying club?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Richmond Pilots accepts all pilots and student pilots, with no minimum hours required, and routinely admits students with no flying experience at all. The club has CFIs and CFIIs available on weekdays and weekends to teach in club aircraft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an equity flying club, and how does the deposit work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In an equity flying club, the members collectively own the aircraft instead of renting from a business. At Richmond Pilots, each member's $2,550 deposit is refundable on leaving the club after at least 3 years; members who leave earlier receive a pro-rated amount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a flying club cheaper than renting from a flight school?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually, yes. Richmond Pilots members fly Cessna 172s for $150–$165 per hour with fuel included, while comparable 172s at New Jersey flight schools rent for about $200–$240 per hour before fuel. Members also pay $100 per month, which is outweighed after a few hours of flying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What planes does Richmond Pilots have? Are they IFR-equipped?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The club owns two instrument-capable Cessna 172s based at Linden Airport: a 1974 Cessna 172M (N5272R) at $150 per hour and a 2000 Cessna 172S (N38PD) at $165 per hour, both tach time with fuel included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get to Linden Airport from Manhattan or Staten Island?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Linden Airport is in Linden, New Jersey, a short drive from Staten Island over the Goethals Bridge. From Manhattan, drive through the Holland Tunnel and take the New Jersey Turnpike south, or take NJ Transit from Penn Station to Linden station and a short taxi or rideshare to the airport."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need my own flight instructor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The club has CFIs and CFIIs available on weekdays and weekends. Members who prefer an outside instructor can have any non-member CFI checked out to teach in club aircraft, provided the instruction is for club members only."
+          }
+        }
+      ]
     }
   ]
 }
@@ -184,6 +294,48 @@
 <p class="sub">
           The deposit is refundable if you decide to leave the club after a minimum of 3 years. If you decide to leave the club earlier, you will receive a pro-rated amount of the deposit.
 </p>
+<h2 id="aircraft">Aircraft</h2>
+<p class="sub">
+          Richmond Pilots owns two instrument-capable (IFR) Cessna 172s, both based at Linden Airport (KLDJ) and available to members for $150–$165 per hour, tach time, fuel included.
+</p>
+<!-- TODO: add avionics (GPS/nav/com, ADS-B) and autopilot for each aircraft -->
+<table class="table sub specs">
+<thead>
+<tr><th>Aircraft</th><th>Tail number</th><th>Year</th><th>Engine</th><th>Equipped</th><th>Rate (tach, wet)</th></tr>
+</thead>
+<tbody>
+<tr><td>C172M</td><td>N5272R</td><td>1974</td><td>Lycoming, 160 hp</td><td>IFR</td><td>$150/hour</td></tr>
+<tr><td>C172S</td><td>N38PD</td><td>2000</td><td>Lycoming, 180 hp</td><td>IFR</td><td>$165/hour</td></tr>
+</tbody>
+</table>
+<p class="sub">
+          Weight &amp; balance sheets: <a href="docs/WB_5272R.xlsx" target="_blank">N5272R</a>, <a href="docs/WB_38PD.xlsx" target="_blank">N38PD</a>.
+</p>
+<h2 id="cost-comparison">Flying club vs. renting from a flight school</h2>
+<p class="sub">
+          Flying a Cessna 172 with Richmond Pilots costs $150–$165 per hour with fuel included. Comparable Cessna 172s at New Jersey flight schools rent for about $200–$240 per hour before fuel.
+</p>
+<table class="table sub specs">
+<thead>
+<tr><th>Hourly rate</th><th>Cessna 172M/N</th><th>Cessna 172S/SP</th></tr>
+</thead>
+<tbody>
+<tr><td>Richmond Pilots (KLDJ)</td><td>$150, fuel included</td><td>$165, fuel included</td></tr>
+<tr><td><a href="https://www.costanzoair.com/rates" target="_blank">Costanzo Air</a> (KCDW)</td><td>$205 + fuel</td><td>$235 + fuel</td></tr>
+<tr><td><a href="https://www.certifiedflyers.com/FleetRentals/FleetRentals.html" target="_blank">Certified Flyers</a> (KMMU)</td><td>—</td><td>$198–$240 + fuel surcharge</td></tr>
+</tbody>
+</table>
+<p class="sub">
+          Club members also pay $100 per month, so the club comes out ahead even at modest flying. For example, 50 hours a year in N38PD costs $9,450 with Richmond Pilots ($8,250 in flying plus $1,200 in monthly fees), compared with $11,750 before fuel at $235 per hour. At 100 hours a year, it is $17,700 versus $23,500 before fuel. The first year adds the $1,000 admission fee; the $2,550 deposit is refundable.
+</p>
+<h3>What "tach time, wet" means</h3>
+<p class="sub">
+          <em>Wet</em> means fuel is included in the hourly rate. A <em>dry</em> rate, like those quoted above by the flight schools, adds the cost of fuel on top, typically 8–10 gallons per hour in a 172.
+</p>
+<p class="sub">
+          <em>Tach time</em> is how the club measures an hour. The tachometer's hour meter counts engine revolutions, so it runs at full speed only near cruise RPM and slower while taxiing, doing run-ups and flying the pattern. A <em>Hobbs</em> meter counts clock time whenever the engine is running. Many flight schools bill by Hobbs time, and tach time typically runs about 10–20% less than Hobbs for the same flight, so a tach rate goes further than the same Hobbs rate.
+</p>
+<p class="sub source-note">Flight school rates as published on their websites, November 2026. Their rates may change; check with each school.</p>
 <p class="photo">
 <img src="img/camping.jpg" alt="Club Cessna 172 parked on the grass with tents under the wings at a fly-in" width="645" height="267"/>
 </p>
@@ -200,6 +352,25 @@
 <p class="photo">
 <img src="img/sky.jpg" alt="View above the clouds from the cockpit of a club Cessna 172" width="645" height="247"/>
 </p>
+<h2 id="faq">Frequently asked questions</h2>
+<div class="sub faq">
+<h3>What flying clubs are near New York City?</h3>
+<p>Richmond Pilots is a non-profit flying club at Linden Airport (KLDJ) in Linden, New Jersey, just across the Goethals Bridge from Staten Island. Founded on Staten Island in 1967, it serves pilots from New York City, Staten Island and North Jersey, with two IFR Cessna 172s at $150–$165 per hour wet.</p>
+<h3>How much does it cost to join a flying club in New Jersey?</h3>
+<p>Joining Richmond Pilots costs a $1,000 non-refundable admission fee plus a $2,550 deposit. After that, members pay $100 per month in fixed expenses and $150–$165 per hour, tach time, fuel included, for the aircraft they fly.</p>
+<h3>Can a student pilot join a flying club?</h3>
+<p>Yes. Richmond Pilots accepts all pilots and student pilots, with no minimum hours required, and routinely admits students with no flying experience at all. The club has CFIs and CFIIs available on weekdays and weekends to teach in club aircraft.</p>
+<h3>What is an equity flying club, and how does the deposit work?</h3>
+<p>In an equity flying club, the members collectively own the aircraft instead of renting from a business. At Richmond Pilots, each member's $2,550 deposit is refundable on leaving the club after at least 3 years; members who leave earlier receive a pro-rated amount.</p>
+<h3>Is a flying club cheaper than renting from a flight school?</h3>
+<p>Usually, yes. Richmond Pilots members fly Cessna 172s for $150–$165 per hour with fuel included, while comparable 172s at New Jersey flight schools rent for about $200–$240 per hour before fuel. Members also pay $100 per month, which is outweighed after a few hours of flying.</p>
+<h3>What planes does Richmond Pilots have? Are they IFR-equipped?</h3>
+<p>The club owns two instrument-capable Cessna 172s based at Linden Airport: a 1974 Cessna 172M (N5272R) at $150 per hour and a 2000 Cessna 172S (N38PD) at $165 per hour, both tach time with fuel included.</p>
+<h3>How do I get to Linden Airport from Manhattan or Staten Island?</h3>
+<p>Linden Airport is in Linden, New Jersey, a short drive from Staten Island over the Goethals Bridge. From Manhattan, drive through the Holland Tunnel and take the New Jersey Turnpike south, or take NJ Transit from Penn Station to Linden station and a short taxi or rideshare to the airport.</p>
+<h3>Do I need my own flight instructor?</h3>
+<p>No. The club has CFIs and CFIIs available on weekdays and weekends. Members who prefer an outside instructor can have any non-member CFI checked out to teach in club aircraft, provided the instruction is for club members only.</p>
+</div>
 <h2>Contact</h2>
 <p class="sub">
           Richmond Pilots<br/>
