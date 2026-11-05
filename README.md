@@ -8,7 +8,7 @@ Currently hosted on AWS S3 + CloudFront, served at the apex domain `richmondpilo
 
 ## PR previews
 
-Every pull request from a branch in this repo is deployed to `https://richmondpilots.org/previews/<branch>/index.html` by `.github/workflows/preview.yml`, and a bot comment on the PR links to it. Previews update on each push, are marked `noindex`, and are deleted when the PR closes. The production deploy excludes `previews/*` so it never deletes them.
+Every pull request from a branch in this repo is deployed to `https://richmondpilots.org/previews/<branch>/` by `.github/workflows/preview.yml`, and a bot comment on the PR links to it. Previews update on each push, are marked `noindex`, and are deleted when the PR closes. The production deploy excludes `previews/*` so it never deletes them.
 
 ## Stack
 

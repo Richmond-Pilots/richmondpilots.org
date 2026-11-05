@@ -35,7 +35,7 @@ jobs:
           slug=$(printf '%s' "$BRANCH" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g' | cut -c1-60)
           echo "SLUG=$slug" >> "$GITHUB_ENV"
           echo "PREFIX=previews/$slug" >> "$GITHUB_ENV"
-          echo "URL=https://richmondpilots.org/previews/$slug/index.html" >> "$GITHUB_ENV"
+          echo "URL=https://richmondpilots.org/previews/$slug/" >> "$GITHUB_ENV"
 
       - uses: actions/checkout@v4
         if: github.event.action != 'closed'
