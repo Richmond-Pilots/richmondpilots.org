@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -7,11 +6,136 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Richmond Pilots</title>
+<title>Richmond Pilots Flying Club | Cessna 172 Rental at Linden Airport (KLDJ), NJ</title>
+<meta name="description" content="Non-profit, member-owned flying club since 1966 with two IFR Cessna 172s at Linden Airport (KLDJ), NJ. $150–$165/hr wet. Student pilots welcome."/>
+<link rel="canonical" href="https://richmondpilots.org/"/>
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Richmond Pilots"/>
+<meta property="og:title" content="Richmond Pilots Flying Club — Linden Airport (KLDJ), NJ"/>
+<meta property="og:description" content="Non-profit, member-owned flying club since 1966 with two IFR Cessna 172s at Linden Airport, NJ. $150–$165/hr wet. Student pilots welcome."/>
+<meta property="og:url" content="https://richmondpilots.org/"/>
+<meta property="og:image" content="https://richmondpilots.org/img/planes.jpg"/>
+<meta property="og:image:width" content="645"/>
+<meta property="og:image:height" content="267"/>
+<meta property="og:image:alt" content="Cessna 172s, including club aircraft N5272R, tied down in the snow"/>
+<meta name="twitter:card" content="summary_large_image"/>
 <!-- Bootstrap -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="css/richmond.css" rel="stylesheet"/>
 <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- Structured data (schema.org JSON-LD). Keep in sync with the page copy, especially rates and meeting details. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["SportsClub", "NGO"],
+      "@id": "https://richmondpilots.org/#club",
+      "name": "Richmond Pilots",
+      "alternateName": ["Richmond Pilots Flying Club", "Richmond Pilots Associates", "Richmond Pilots Corp"],
+      "url": "https://richmondpilots.org/",
+      "logo": "https://richmondpilots.org/img/logo-square.png",
+      "image": "https://richmondpilots.org/img/planes.jpg",
+      "description": "Non-profit, member-owned equity flying club operating two instrument-capable Cessna 172s at Linden Airport (KLDJ), New Jersey. Founded in 1966 at Miller Field, Staten Island.",
+      "foundingDate": "1966",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Miller Field, Staten Island, NY"
+      },
+      "nonprofitStatus": "Nonprofit501c7",
+      "sport": "General aviation",
+      "location": {
+        "@type": "Airport",
+        "name": "Linden Airport",
+        "icaoCode": "KLDJ",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Linden",
+          "addressRegion": "NJ",
+          "addressCountry": "US"
+        }
+      },
+      "areaServed": ["New York City", "Staten Island", "New Jersey"],
+      "sameAs": [
+        "https://airnav.com/airport/KLDJ/RICHMOND_PILOTS/link",
+        "https://flightschools.fyi/flight-schools/richmond-pilots-kldj/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Cessna 172M N5272R rental (members)",
+          "itemOffered": {"@type": "Service", "name": "Cessna 172M aircraft rental, tach time, wet"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 150,
+            "priceCurrency": "USD",
+            "unitCode": "HUR",
+            "validFrom": "2026-05-01"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Cessna 172S N38PD rental (members)",
+          "itemOffered": {"@type": "Service", "name": "Cessna 172S aircraft rental, tach time, wet"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 165,
+            "priceCurrency": "USD",
+            "unitCode": "HUR",
+            "validFrom": "2026-05-01"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Club membership",
+          "description": "$1,000 non-refundable admission fee, $2,550 refundable deposit, and $100 per month fixed expenses.",
+          "priceSpecification": [
+            {"@type": "PriceSpecification", "name": "Admission fee (non-refundable)", "price": 1000, "priceCurrency": "USD"},
+            {"@type": "PriceSpecification", "name": "Deposit (refundable after 3 years, pro-rated before)", "price": 2550, "priceCurrency": "USD"},
+            {"@type": "UnitPriceSpecification", "name": "Monthly fixed expenses", "price": 100, "priceCurrency": "USD", "unitCode": "MON"}
+          ]
+        }
+      ],
+      "event": {"@id": "https://richmondpilots.org/#meeting"}
+    },
+    {
+      "@type": "Event",
+      "@id": "https://richmondpilots.org/#meeting",
+      "name": "Richmond Pilots monthly club meeting",
+      "description": "Monthly meeting open to pilots, members, prospective members and guests.",
+      "organizer": {"@id": "https://richmondpilots.org/#club"},
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "isAccessibleForFree": true,
+      "eventSchedule": {
+        "@type": "Schedule",
+        "repeatFrequency": "P1M",
+        "byDay": "https://schema.org/Tuesday",
+        "byMonthWeek": 2,
+        "startTime": "19:30",
+        "scheduleTimezone": "America/New_York"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Panini Grill",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Staten Island",
+          "addressRegion": "NY",
+          "addressCountry": "US"
+        }
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://richmondpilots.org/#website",
+      "url": "https://richmondpilots.org/",
+      "name": "Richmond Pilots",
+      "publisher": {"@id": "https://richmondpilots.org/#club"}
+    }
+  ]
+}
+</script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -22,16 +146,17 @@
 <body>
 <div class="container">
 <div class="starter-template sub">
-<img id="logo" alt="Richmond Pilots Logo" src="img/logo.jpg" width="35%"/>
+<img id="logo" alt="Richmond Pilots flying club logo" src="img/logo.jpg" width="35%"/>
+<h1 class="site-title">Richmond Pilots — a member-owned flying club at Linden Airport (KLDJ), New Jersey</h1>
 <h2>Welcome</h2>
 <p class="sub">
-          Richmond Pilots is a 503(c)(7) equity based flight club in the NY/NJ area that owns two instrument capable Cessna 172s. The club is a non profit organization, run entirely by its members, and does not provide any commmercial services. Membership is a great alternative to paying FBO prices which are typically twice as much as club rates for the same aircraft.
+          Richmond Pilots is a 501(c)(7) non-profit, equity-based flying club at Linden Airport (KLDJ) in Linden, New Jersey, serving pilots from New York City, Staten Island and North Jersey. The club owns two instrument-capable (IFR) Cessna 172s that members fly for $150–$165 per hour wet. The club is run entirely by its members and does not provide any commercial services. Membership is a great alternative to paying FBO prices, which are typically twice as much as club rates for the same aircraft.
 </p>
 <p class="sub">
         Richmond Pilots has been in continuous operation since its formation in 1966 at <a href="http://www.airfields-freeman.com/NY/Airfields_NY_NY_StatenI.htm#miller" target="_blank">Miller Field</a> in Richmond County (Staten Island). When Miller Field closed, the club moved its planes to multiple airports including Linden, Colts Neck, and Central Jersey before consolidating in its current location at <a href="https://www.airnav.com/airport/KLDJ" target="_blank">Linden Airport</a> in NJ.
 </p>
-<p id="planes">
-<img src="img/members.jpg"/>
+<p class="photo">
+<img src="img/members.jpg" alt="Richmond Pilots members and their families on the ramp at Linden Airport" width="800" height="364"/>
 </p>
 <h2>Meetings</h2>
 <p class="sub">
@@ -40,38 +165,40 @@
 <em>Where</em>: <a href="https://maps.app.goo.gl/rkuggzLRsCaLRs8C6">Panini Grill</a> in Staten Island, NY. Please contact the <a href="mailto:stan132@aol.com">Chief Pilot</a> for details.
         </p>
 <h2>Fees</h2>
-<p>
-          Hourly rates for the aircraft are as following:
-          <ul>
-<li>Cessna 172M - N5272R, $150/hour tach wet  <a href="docs/WB_5272R.xlsx" target="_blank">(w/b)</a></li>
-<li>Cessna 172S - N38PD, $165/hour tach wet  <a href="docs/WB_38PD.xlsx" target="_blank">(w/b)</a></li>
+<p class="sub">
+          Hourly rates for the aircraft are as follows (effective May 1, 2026):
+</p>
+<ul class="sub">
+<li>Cessna 172M - N5272R, $150/hour tach wet  <a href="docs/WB_5272R.xlsx" target="_blank">(w/b)</a></li>
+<li>Cessna 172S - N38PD, $165/hour tach wet  <a href="docs/WB_38PD.xlsx" target="_blank">(w/b)</a></li>
 </ul>
-<p id="planes">
-<img src="img/planes.jpg"/>
+<p class="photo">
+<img src="img/planes.jpg" alt="Cessna 172s, including club aircraft N5272R, tied down in the snow" width="645" height="267"/>
 </p>
 <h3>Membership fees:</h3>
-<ul>
+<ul class="sub">
 <li>Monthly fixed expenses: $100</li>
 <li>Admission fee: $1,000 - non refundable</li>
 <li>Deposit: $2,550</li>
 </ul>
+<p class="sub">
           The deposit is refundable if you decide to leave the club after a minimum of 3 years. If you decide to leave the club earlier, you will receive a pro-rated amount of the deposit.
-        </p>
-<p id="planes">
-<img src="img/camping.jpg"/>
+</p>
+<p class="photo">
+<img src="img/camping.jpg" alt="Club Cessna 172 parked on the grass with tents under the wings at a fly-in" width="645" height="267"/>
 </p>
 <h2>Joining</h2>
 <p class="sub">
           We accept all pilots and student pilots. No minimum hours required.
           We suggest that you come to one of our meetings first (see Meetings) or get in touch via contact info below. You are invited to join any club meeting. When you are ready to join, contact our  <a href="mailto:stan132@aol.com">Chief Pilot</a>.
-        </p>
-<p>When ready, fill out the <a download="" href="docs/RPC_Membership_Application.pdf">Membership Application</a>
+</p>
+<p class="sub">When ready, fill out the <a download="" href="docs/RPC_Membership_Application.pdf">Membership Application</a>.</p>
 <h2>Instruction</h2>
 <p class="sub">
           The club has CFI/CFIIs available weekdays and weekends. Additionally, any non-member CFI can be checked out to teach in club aircraft provided the instruction is for members only. The club routinely admits students with no experience at all.
-        </p>
-<p id="planes">
-<img src="img/sky.jpg"/>
+</p>
+<p class="photo">
+<img src="img/sky.jpg" alt="View above the clouds from the cockpit of a club Cessna 172" width="645" height="247"/>
 </p>
 <h2>Contact</h2>
 <p class="sub">
@@ -79,7 +206,8 @@
           130 W 86th St, Apt 15AR<br/>
           New York, NY 10024<br/>
 </p>
-</p></div>
+<p class="sub footer-note">Rates last updated May 2026.</p>
+</div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
