@@ -5,20 +5,21 @@ description: "Non-profit, member-owned flying club since 1967 with two IFR Cessn
 eyebrow: Since 1967
 heading: Richmond Pilots Flying Club
 lede: Member-owned flying club at Linden Airport (KLDJ), NJ
-hero_image: img/members.jpg
-hero_alt: Richmond Pilots members and their families on the ramp at Linden Airport
+hero_image: members-plane-wash-2023.jpg
 ---
 
 {{< section title="Why belong" >}}
 Richmond Pilots is a 501(c)(7) non-profit, equity-based flying club at Linden Airport (KLDJ) in Linden, New Jersey, serving pilots from New York City, Staten Island and North Jersey. The club owns two instrument-capable (IFR) Cessna 172s that members fly for {{< rate-range >}} per hour wet. The club is run entirely by its members and does not provide any commercial services. Membership is a great alternative to paying FBO prices, which are typically twice as much as club rates for the same aircraft.
 
 {{< todo "Member stories go here: what it's like to belong, trips, the people" >}}
+
+{{< photo src="member-washing-n5272r.jpg" >}}
 {{< /section >}}
 
 {{< section title="The aircraft" alt="true" >}}
 {{< aircraft-table >}}
 
-{{< photo src="img/planes.jpg" alt="Cessna 172s, including club aircraft N5272R, tied down in the snow" >}}
+{{< photo src="n38pd-on-ramp.jpg" >}}
 {{< /section >}}
 
 {{< section title="What it costs" >}}

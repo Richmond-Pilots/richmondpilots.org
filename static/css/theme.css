@@ -92,7 +92,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .section > .wrap > h2 { max-width: var(--measure); margin-bottom: calc(var(--space-unit) * 2.5); }
 .section-intro { max-width: var(--measure); color: var(--color-muted); font-size: 1.25rem; }
 .section-body > * { max-width: var(--measure); }
-.section-body > .table-scroll, .section-body > .grid, .section-body > .photo { max-width: none; }
+.section-body > .table-scroll, .section-body > .grid { max-width: none; }
 .section-body > :last-child { margin-bottom: 0; }
 
 /* Summary list (GOV.UK pattern) */
@@ -109,7 +109,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .data-table tbody th { font-weight: 700; }
 
 /* Photos at their own size */
-.photo { margin: calc(var(--space-unit) * 4) 0 0; max-width: 645px; }
+.photo { margin: calc(var(--space-unit) * 4) 0 0; max-width: 720px; }
 .photo img { border-radius: var(--radius); }
 .photo figcaption { margin-top: var(--space-unit); color: var(--color-muted); font-size: .9375rem; }
 
@@ -202,3 +202,9 @@ p, li, dd, figcaption { text-wrap: pretty; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+/* Side-by-side photos */
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: calc(var(--space-unit) * 2); margin-top: calc(var(--space-unit) * 4); }
+.photo-grid .photo { margin: 0; max-width: none; }
+.section-body > .photo-grid { max-width: none; }
+.hero-media figcaption { margin-top: var(--space-unit); color: var(--color-muted); font-size: .875rem; }

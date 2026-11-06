@@ -21,5 +21,5 @@ Questions? {{< contact-email >}}
 {{< section title="Can I learn to fly with the club?" >}}
 The club has CFI/CFIIs available weekdays and weekends. Additionally, any non-member CFI can be checked out to teach in club aircraft provided the instruction is for members only. The club routinely admits students with no experience at all.
 
-{{< photo src="img/sky.jpg" alt="View above the clouds from the cockpit of a club Cessna 172" >}}
+{{< photo src="in-flight-near-linden.jpg" >}}
 {{< /section >}}

@@ -1,0 +1,30 @@
+{{- /*
+  A photo in a <figure>. Context: dict "src" (file in assets/photos/ such as "n38pd-side.jpg",
+  or a path under static/ such as "img/camping.jpg"), optional "alt", "class", "sizes", "eager".
+  Photos in assets/photos/ get resized copies and the alt text and credit from data/photos.yaml.
+*/ -}}
+{{- $src := .src -}}
+{{- $class := .class | default "photo" -}}
+{{- $sizes := .sizes | default "(max-width: 720px) 100vw, 645px" -}}
+{{- $loading := cond (.eager | default false) "eager" "lazy" -}}
+{{- $res := resources.Get (printf "photos/%s" $src) -}}
+<figure class="{{ $class }}">
+{{- if $res -}}
+  {{- $info := index hugo.Data.photos (strings.TrimSuffix ".jpg" $src) | default dict -}}
+  {{- $alt := .alt | default $info.alt -}}
+  {{- $srcset := slice -}}
+  {{- $fallback := $res -}}
+  {{- range slice 640 1024 1600 -}}
+    {{- if le . $res.Width -}}
+      {{- $r := $res.Resize (printf "%dx q80" .) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink .) -}}
+      {{- if eq . 1024 }}{{ $fallback = $r }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" alt="{{ $alt }}" width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" loading="{{ $loading }}">
+  {{- with $info.credit }}<figcaption>Photo: {{ . }}</figcaption>{{ end -}}
+{{- else -}}
+  {{- $size := images.Config (printf "static/%s" $src) -}}
+  <img src="{{ $src | relURL }}" alt="{{ .alt }}" width="{{ $size.Width }}" height="{{ $size.Height }}" loading="{{ $loading }}">
+{{- end -}}
+</figure>

@@ -14,8 +14,8 @@ changefreq = ""
 priority = -1
 
 [params]
-defaultImage = "img/planes.jpg"
-defaultImageAlt = "Cessna 172s, including club aircraft N5272R, tied down in the snow"
+defaultImage = "n38pd-on-ramp.jpg"
+defaultImageAlt = "Club Cessna 172S N38PD on the ramp at Linden Airport"
 
 [[menus.main]]
 name = "Home"

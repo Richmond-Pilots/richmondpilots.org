@@ -1,7 +1,7 @@
 {{- $title := .Title -}}
 {{- if .IsHome }}{{ $title = .Params.seo_title }}{{ else }}{{ $title = printf "%s | Richmond Pilots" .Title }}{{ end -}}
 {{- $description := replace (.Description | default site.Home.Description) "{rate_range}" (partial "rate-range.html" .) -}}
-{{- $image := .Params.image | default site.Params.defaultImage | absURL -}}
+{{- $image := partial "social-image.html" . -}}
 {{- $imageAlt := .Params.image_alt | default site.Params.defaultImageAlt -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

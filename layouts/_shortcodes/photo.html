@@ -1,3 +1,1 @@
-{{- $src := .Get "src" -}}
-{{- $size := images.Config (printf "static/%s" $src) -}}
-<figure class="photo"><img src="{{ $src | relURL }}" alt="{{ .Get "alt" }}" width="{{ $size.Width }}" height="{{ $size.Height }}" loading="lazy">{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- partial "figure.html" (dict "src" (.Get "src") "alt" (.Get "alt")) -}}

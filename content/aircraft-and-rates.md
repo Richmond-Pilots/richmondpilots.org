@@ -7,7 +7,7 @@ lede: Two instrument-capable Cessna 172s, flown by members.
 {{< section title="How much does it cost to fly?" >}}
 {{< aircraft-table >}}
 
-{{< photo src="img/planes.jpg" alt="Cessna 172s, including club aircraft N5272R, tied down in the snow" >}}
+{{< photos "n5272r-side.jpg" "n38pd-side.jpg" >}}
 {{< /section >}}
 
 {{< section title="How much does it cost to join?" alt="true" >}}

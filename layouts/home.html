@@ -9,10 +9,7 @@
       <a class="btn btn-secondary" href="{{ "aircraft-and-rates/" | relURL }}">See aircraft and rates</a>
     </div>
   </div>
-  <figure class="hero-media">
-    {{- $size := images.Config (printf "static/%s" .Params.hero_image) }}
-    <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Params.hero_alt }}" width="{{ $size.Width }}" height="{{ $size.Height }}">
-  </figure>
+  {{ partial "figure.html" (dict "src" .Params.hero_image "class" "hero-media" "sizes" "(max-width: 880px) 100vw, 560px" "eager" true) }}
 </div></section>
 {{ .Content }}
 {{ end }}

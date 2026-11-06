@@ -17,6 +17,7 @@ Static site built with [Hugo](https://gohugo.io), a single program with no other
 - `data/club.yaml` — rates, fees, aircraft, meeting details and contact info
 - `content/` — pages, in Markdown
 - `content/guides/` — guides; add `draft: true` to show a page in previews only
+- `assets/photos/` and `data/photos.yaml` — site photos (about 2400px wide) with their alt text and credit. Hugo makes smaller copies for phones. Get people's OK before adding photos of them, and no photos of children for now.
 - `layouts/` — page templates, shared header and footer, and the shortcodes used in page content
 - `static/` — files served as-is: `css/theme.css`, `img/`, `docs/`, `Avtools/`, `favicon.ico`, `robots.txt` and `zoho-domain-verification.html`
 
