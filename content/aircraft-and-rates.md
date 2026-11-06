@@ -7,7 +7,7 @@ lede: Two instrument-capable Cessna 172s, flown by members.
 {{< section title="How much does it cost to fly?" >}}
 {{< aircraft-table >}}
 
-{{< photos "n5272r-side.jpg" "n38pd-side.jpg" >}}
+{{< photos "n5272r-full.jpg" "n38pd-full.jpg" >}}
 {{< /section >}}
 
 {{< section title="How much does it cost to join?" alt="true" >}}

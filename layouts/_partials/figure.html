@@ -22,7 +22,10 @@
     {{- end -}}
   {{- end -}}
   <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" alt="{{ $alt }}" width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" loading="{{ $loading }}">
-  {{- with $info.credit }}<figcaption>Photo: {{ . }}</figcaption>{{ end -}}
+  {{- $parts := slice -}}
+  {{- with $info.caption }}{{ $parts = $parts | append . }}{{ end -}}
+  {{- with $info.credit }}{{ $parts = $parts | append (printf "Photo: %s" .) }}{{ end -}}
+  {{- with $parts }}<figcaption>{{ delimit . " · " }}</figcaption>{{ end -}}
 {{- else -}}
   {{- $size := images.Config (printf "static/%s" $src) -}}
   <img src="{{ $src | relURL }}" alt="{{ .alt }}" width="{{ $size.Width }}" height="{{ $size.Height }}" loading="{{ $loading }}">
