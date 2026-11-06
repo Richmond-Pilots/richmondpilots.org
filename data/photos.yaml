@@ -1,6 +1,6 @@
 # Alt text, optional caption, and credit for each photo in assets/photos/, keyed by file name without ".jpg".
 # Add photos at about 2400px wide; Hugo makes smaller copies for phones automatically.
-# Only add photos of people with their OK, and no photos of children for now.
+# Only add photos of people with their OK. Children only with a parent's OK.
 
 members-plane-wash-2023:
   alt: Richmond Pilots members on the ramp at Linden Airport, between the club's two Cessna 172s
@@ -21,4 +21,7 @@ member-washing-n5272r:
   credit: Dave Gramatges
 in-flight-near-linden:
   alt: View over the nose of a Cessna 172 in flight near Linden Airport
+  credit: Dave Gramatges
+plane-wash-barbecue-2018:
+  alt: Members around the grill at the 2018 spring plane wash at Linden Airport
   credit: Dave Gramatges

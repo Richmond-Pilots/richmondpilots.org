@@ -13,7 +13,7 @@ Richmond Pilots is a 501(c)(7) non-profit, equity-based flying club at Linden Ai
 
 {{< todo "Member stories go here: what it's like to belong, trips, the people" >}}
 
-{{< photo src="member-washing-n5272r.jpg" >}}
+{{< photos "member-washing-n5272r.jpg" "plane-wash-barbecue-2018.jpg" >}}
 {{< /section >}}
 
 {{< section title="The aircraft" alt="true" >}}
