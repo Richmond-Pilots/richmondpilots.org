@@ -29,5 +29,6 @@
 {{- else -}}
   {{- $size := images.Config (printf "static/%s" $src) -}}
   <img src="{{ $src | relURL }}" alt="{{ .alt }}" width="{{ $size.Width }}" height="{{ $size.Height }}" loading="{{ $loading }}">
+  {{- with .caption }}<figcaption>{{ . }}</figcaption>{{ end -}}
 {{- end -}}
 </figure>
