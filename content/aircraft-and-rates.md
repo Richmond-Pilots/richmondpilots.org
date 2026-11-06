@@ -14,4 +14,6 @@ lede: Two instrument-capable Cessna 172s, flown by members.
 {{< membership-fees >}}
 
 The deposit is refundable if you decide to leave the club after a minimum of 3 years. If you decide to leave the club earlier, you will receive a pro-rated amount of the deposit.
+
+{{< photo src="img/planes.jpg" alt="Club Cessna 172M N5272R tied down in the snow, next to another Cessna 172" caption="N5272R in the snow" >}}
 {{< /section >}}

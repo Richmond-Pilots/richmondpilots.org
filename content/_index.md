@@ -19,7 +19,7 @@ Richmond Pilots is a 501(c)(7) non-profit, equity-based flying club at Linden Ai
 {{< section title="The aircraft" alt="true" >}}
 {{< aircraft-table >}}
 
-{{< photo src="img/planes.jpg" alt="Club Cessna 172M N5272R tied down in the snow, next to another Cessna 172" caption="N5272R in the snow" >}}
+{{< photo src="n5272r-sunset.jpg" >}}
 {{< /section >}}
 
 {{< section title="What it costs" >}}
