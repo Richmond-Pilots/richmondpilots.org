@@ -1,0 +1,7 @@
+{{- /* Absolute URL of a page's share image, cropped to 1200x630 when it is in assets/photos/. */ -}}
+{{- $src := .Params.image | default site.Params.defaultImage -}}
+{{- $url := $src | absURL -}}
+{{- with resources.Get (printf "photos/%s" $src) -}}
+  {{- $url = (.Fill "1200x630 q80").Permalink -}}
+{{- end -}}
+{{- return $url -}}

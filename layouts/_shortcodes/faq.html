@@ -1,0 +1,3 @@
+<details class="faq"><summary>{{ .Get "q" }}</summary>
+{{ .Inner | .Page.RenderString (dict "display" "block") }}
+</details>

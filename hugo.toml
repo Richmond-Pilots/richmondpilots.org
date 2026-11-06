@@ -1,0 +1,43 @@
+baseURL = "https://richmondpilots.org/"
+locale = "en-US"
+title = "Richmond Pilots"
+disableKinds = ["taxonomy", "term", "rss"]
+enableGitInfo = true
+enableRobotsTXT = false
+
+[markup.goldmark.renderer]
+# Shortcodes emit HTML that is passed back through Markdown.
+unsafe = true
+
+[sitemap]
+changefreq = ""
+priority = -1
+
+[params]
+defaultImage = "n5272r-sunset.jpg"
+defaultImageAlt = "Club Cessna 172M N5272R on an airport ramp at sunset"
+
+[[menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "Aircraft & Rates"
+pageRef = "/aircraft-and-rates"
+weight = 20
+
+[[menus.main]]
+name = "Joining"
+pageRef = "/joining"
+weight = 30
+
+[[menus.main]]
+name = "Guides"
+pageRef = "/guides"
+weight = 40
+
+[[menus.main]]
+name = "FAQ"
+pageRef = "/faq"
+weight = 50

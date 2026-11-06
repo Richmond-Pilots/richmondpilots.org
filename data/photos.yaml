@@ -1,0 +1,31 @@
+# Alt text, optional caption, and credit for each photo in assets/photos/, keyed by file name without ".jpg".
+# Add photos at about 2400px wide; Hugo makes smaller copies for phones automatically.
+# Only add photos of people with their OK. Children only with a parent's OK.
+
+members-plane-wash-2023:
+  alt: Richmond Pilots members on the ramp at Linden Airport, between the club's two Cessna 172s
+  credit: Dave Gramatges
+n38pd-on-ramp:
+  alt: Club Cessna 172S N38PD on the ramp at Linden Airport during a plane wash
+  credit: Dave Gramatges
+n38pd-full:
+  caption: N38PD, Cessna 172S
+  alt: Club Cessna 172S N38PD parked on the ramp at Linden Airport
+  credit: Dave Gramatges
+n5272r-full:
+  caption: N5272R, Cessna 172M
+  alt: Club Cessna 172M N5272R parked on the ramp, with N38PD behind it
+  credit: Dave Gramatges
+member-washing-n5272r:
+  alt: A member on a ladder washing the wing of club Cessna 172M N5272R
+  credit: Dave Gramatges
+in-flight-near-linden:
+  alt: View over the nose of a Cessna 172 in flight near Linden Airport
+  credit: Dave Gramatges
+plane-wash-barbecue-2018:
+  alt: Members around the grill at the 2018 spring plane wash at Linden Airport
+  credit: Dave Gramatges
+n5272r-sunset:
+  caption: N5272R at sunset
+  alt: Club Cessna 172M N5272R on an airport ramp at sunset, with two cooling towers on the horizon
+  credit: Jorge Lembert

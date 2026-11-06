@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="section"><div class="wrap">
+  <article class="prose">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
+      {{ with .Params.reviewed }}<p class="meta">Last reviewed {{ time.Format "January 2006" . }}</p>{{ end }}
+    </header>
+    {{ .Content }}
+    <aside class="callout callout-cta">
+      <h2>Fly with Richmond Pilots</h2>
+      <p>We're a member-owned flying club at Linden Airport (KLDJ), NJ. You are invited to join any club meeting.</p>
+      <a class="btn btn-primary" href="{{ partial "cta-url.html" . }}">{{ hugo.Data.club.cta_label }}</a>
+    </aside>
+  </article>
+</div></section>
+{{ end }}
