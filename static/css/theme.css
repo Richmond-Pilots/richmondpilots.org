@@ -131,6 +131,13 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .prose ul, .prose ol { padding-left: 1.25em; }
 .prose li { margin-bottom: var(--space-unit); }
 .prose .photo { margin-bottom: calc(var(--space-unit) * 4); }
+/* Markdown tables in guides (shortcode tables have a class); a table with an empty header row is a fact box */
+.prose table:not([class]) { width: 100%; margin: 0 0 calc(var(--space-unit) * 3); border-collapse: collapse; font-size: 1rem; border-top: 1px solid var(--color-border); }
+.prose table:not([class]) :is(th, td) { padding: calc(var(--space-unit) * 1.25) calc(var(--space-unit) * 2) calc(var(--space-unit) * 1.25) 0; border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+.prose table:not([class]) thead th { border-bottom: 2px solid var(--color-strong-border); font-size: .9375rem; font-weight: 600; color: var(--color-muted); }
+.prose thead:has(th:empty:first-child + th:empty:last-child) { display: none; }
+.prose table:has(thead th:empty) tbody td:first-child { width: 9rem; color: var(--color-muted); }
+.prose table:not([class]) :is(td, th):last-child { padding-right: 0; }
 .meta { margin: calc(var(--space-unit) * 2) 0 0; color: var(--color-muted); font-size: .9375rem; }
 
 /* Callout (GOV.UK inset text) */
