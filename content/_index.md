@@ -39,5 +39,5 @@ We suggest that you come to one of our meetings first or get in touch. You are i
 {{< section title="History" alt="true" >}}
 Richmond Pilots has been in continuous operation since its formation in 1967 at [Miller Field](http://www.airfields-freeman.com/NY/Airfields_NY_NY_StatenI.htm#miller) in Richmond County (Staten Island). When Miller Field closed, the club moved its planes to multiple airports including Linden, Colts Neck, and Central Jersey before consolidating in its current location at [Linden Airport](https://www.airnav.com/airport/KLDJ) in NJ.
 
-{{< photo src="img/camping.jpg" alt="Club Cessna 172 parked on the grass with tents under the wings at a fly-in" >}}
+{{< photo src="img/camping.jpg" alt="A Cessna 172 parked on the grass with tents under its wings at EAA AirVenture in Oshkosh, Wisconsin" caption="Camping under the wing at AirVenture, Oshkosh · Photo: Dave Gramatges" >}}
 {{< /section >}}
