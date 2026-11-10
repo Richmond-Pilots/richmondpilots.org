@@ -59,7 +59,7 @@ Airport facts were checked on 10 November 2026 against the [FAA Chart Supplement
 | Runways | 14/32, 6,833 ft; 1/19, 5,517 ft |
 | Airspace | Class D while the tower is open, under the New York Class B |
 | Getting there | LIRR Main Line to Farmingdale, then about 3 miles by taxi. About 37 miles by car from Midtown |
-| Who flies here | [Academy of Aviation](https://www.academyofaviation.com/farmingdale/), [Airborne Elite](https://flyforreal.com) |
+| Who flies here | [Long Island Aviators](https://longislandaviators.com), [Academy of Aviation](https://www.academyofaviation.com/farmingdale/), [Nassau Flyers](https://www.nassauflyers.com) (Cirrus), [Airborne Elite](https://flyforreal.com) (light sport), and more |
 | Good to know | Landing fee for all civil aircraft. Voluntary noise abatement |
 
 {{< todo "What it's like to fly from Republic" >}}
