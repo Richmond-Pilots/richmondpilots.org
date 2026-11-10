@@ -1,0 +1,36 @@
+# Typical local rental rates, used by the club vs. renting guide.
+# The comparison tables and percentages are calculated from this file and
+# data/club.yaml, so update the numbers here rather than in the guide text.
+
+# Estimated tach hours per Hobbs hour on club aircraft, used to compare the club's
+# tach rates with rental Hobbs rates. 0.75 is members' experience on N5272R and
+# N38PD (tach runs about 25% less than Hobbs). Refine it with the average from club
+# flights where both meters were recorded.
+tach_to_hobbs: 0.75
+
+# When these rates were last checked against local flight schools' websites.
+checked: 2026-11-10
+
+# Typical wet rate per Hobbs hour for renting the same model near NYC.
+# Based on rates published in November 2026:
+#   Costanzo Air (KCDW), https://costanzoair.com/rates
+#     172N/M $217, 172S $252, wet. Doesn't say Hobbs or tach.
+#   Certified Flyers (KMMU), https://www.certifiedflyers.com/FleetRentals/FleetRentals.html
+#     172SP $198 (KLN-94), $219 (Garmin 530), $240 (G1000), plus a fuel surcharge.
+#     Doesn't say Hobbs or tach.
+typical_rates:
+  - compares_to: C172M # The club aircraft's short_model in data/club.yaml
+    rate: 200
+  - compares_to: C172S
+    rate: 250
+
+# Example flights for the cost table, priced for the aircraft named here.
+# Hobbs time includes taxi and run-up.
+example_aircraft: C172S # A short_model in data/club.yaml
+examples:
+  - flight: Hudson River corridor sightseeing flight
+    hobbs: 1.0
+  - flight: Instrument practice, a few approaches nearby
+    hobbs: 1.5
+  - flight: Lunch on Block Island (KBID) and back
+    hobbs: 2.5

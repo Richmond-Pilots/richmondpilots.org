@@ -107,6 +107,8 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .data-table th, .data-table td { padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2) calc(var(--space-unit) * 1.5) 0; border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
 .data-table thead th { border-bottom: 2px solid var(--color-strong-border); font-size: .9375rem; font-weight: 600; color: var(--color-muted); }
 .data-table tbody th { font-weight: 700; }
+/* Note under a table: tucked close to the table, with room before the next paragraph. */
+.table-note { max-width: var(--measure); margin: calc(var(--space-unit) * -1.5) 0 calc(var(--space-unit) * 4); color: var(--color-muted); font-size: .9375rem; line-height: 1.5; }
 
 /* Photos at their own size */
 .photo { margin: calc(var(--space-unit) * 4) 0 0; max-width: 720px; }
@@ -128,6 +130,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .prose h3 { margin: calc(var(--space-unit) * 4) 0 var(--space-unit); }
 .prose ul, .prose ol { padding-left: 1.25em; }
 .prose li { margin-bottom: var(--space-unit); }
+.prose .photo { margin-bottom: calc(var(--space-unit) * 4); }
 .meta { margin: calc(var(--space-unit) * 2) 0 0; color: var(--color-muted); font-size: .9375rem; }
 
 /* Callout (GOV.UK inset text) */
