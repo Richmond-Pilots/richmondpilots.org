@@ -151,7 +151,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .site-footer h2 { margin-bottom: var(--space-unit); font-size: 1rem; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin-bottom: calc(var(--space-unit) * .75); }
-.footer-grid { display: grid; gap: calc(var(--space-unit) * 4); grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); }
+.footer-grid { display: grid; gap: calc(var(--space-unit) * 4); grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .footer-col p { max-width: 28rem; }
 .footer-note { margin: calc(var(--space-unit) * 4) 0 0; padding-top: calc(var(--space-unit) * 2); border-top: 1px solid var(--color-border); color: var(--color-muted); font-size: .9375rem; }
 
