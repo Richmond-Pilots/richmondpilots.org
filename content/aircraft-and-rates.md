@@ -4,13 +4,17 @@ description: "Richmond Pilots flies two IFR Cessna 172s from Linden Airport (KLD
 lede: Two instrument-capable Cessna 172s, flown by members.
 ---
 
-{{< section title="How much does it cost to fly?" >}}
+{{< section title="Avionics" >}}
+Both aircraft have been converted to Garmin G5 electronic flight instruments and are equipped with a Garmin GPS 175, an IFR-approved WAAS GPS navigator that flies GPS approaches down to LPV minimums.
+{{< /section >}}
+
+{{< section title="How much does it cost to fly?" alt="true" >}}
 {{< aircraft-table >}}
 
 {{< photos "n5272r-full.jpg" "n38pd-full.jpg" >}}
 {{< /section >}}
 
-{{< section title="How much does it cost to join?" alt="true" >}}
+{{< section title="How much does it cost to join?" >}}
 {{< membership-fees >}}
 
 The deposit is refundable if you decide to leave the club after a minimum of 3 years. If you decide to leave the club earlier, you will receive a pro-rated amount of the deposit.

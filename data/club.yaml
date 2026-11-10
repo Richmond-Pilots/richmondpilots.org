@@ -11,7 +11,7 @@ aircraft:
     engine: Lycoming, 160 hp
     rate: 150
     weight_balance: docs/WB_5272R.xlsx
-    avionics: ""   # Optional. The column appears once any aircraft has a value.
+    avionics: Garmin G5, Garmin GPS 175   # Optional. The column appears once any aircraft has a value.
   - model: Cessna 172S
     short_model: C172S
     tail: N38PD
@@ -19,7 +19,7 @@ aircraft:
     engine: Lycoming, 180 hp
     rate: 165
     weight_balance: docs/WB_38PD.xlsx
-    avionics: ""
+    avionics: Garmin G5, Garmin GPS 175
 
 membership:
   monthly: 100
