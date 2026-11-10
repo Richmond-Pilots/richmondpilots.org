@@ -38,7 +38,10 @@ meeting:
 # placeholder, and the production deploy refuses to run while any placeholder is live.
 contact:
   email: ""
-  address: []          # One list item per line
+  address:             # One list item per line
+    - Linden Airport (KLDJ)
+    - 1101 W Edgar Rd
+    - Linden, NJ 07036
   inquiry_form_url: "" # Link to the waiting list inquiry form
 
 cta_label: Join the waiting list
