@@ -68,7 +68,7 @@ Airport facts were checked on 10 November 2026 against the [FAA Chart Supplement
 
 | Airport | Tower | Longest runway | Getting there | Who flies here |
 |---|---|---|---|---|
-| Lincoln Park (N07), Lincoln Park, NJ | None | 2,767 ft; touch-and-gos prohibited | NJ Transit Montclair–Boonton Line to Lincoln Park (weekdays), then about 2 miles | {{< todo "Who flies here (ask Hugh)" >}} |
+| Lincoln Park (N07), Lincoln Park, NJ | None | 2,767 ft; touch-and-gos prohibited | NJ Transit Montclair–Boonton Line to Lincoln Park (weekdays), then about 2 miles | Aero Flight School @ N07, [Liftoff Pilot Academy](https://liftoffpilotacademy.com) (Pipistrel light sport) |
 | Westchester County (KHPN), White Plains, NY | Yes; Class D | 6,549 ft | Metro-North Harlem Line to White Plains, then about 6 miles | [Academy of Aviation](https://www.academyofaviation.com/white-plains/), [Performance Flight](https://flypf.com) (Cirrus) |
 | Long Island MacArthur (KISP), Ronkonkoma, NY | Yes; Class C | 7,006 ft | LIRR to Ronkonkoma, then about 3 miles | — |
 | Brookhaven Calabro (KHWV), Shirley, NY | None | 4,222 ft | LIRR to Mastic–Shirley, then about 3 miles | Mid-Island Air Service |
