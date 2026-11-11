@@ -5,7 +5,7 @@ lede: Two instrument-capable Cessna 172s, flown by members.
 ---
 
 {{< section title="Avionics" >}}
-Both aircraft have been converted to Garmin G5 electronic flight instruments and are equipped with a Garmin GPS 175, an IFR-approved WAAS GPS navigator that flies GPS approaches down to LPV minimums.
+Both aircraft have been converted to Garmin G5 electronic flight instruments and are equipped with a Garmin GTN 650Xi, an IFR-approved WAAS GPS navigator that flies GPS approaches down to LPV minimums.
 {{< /section >}}
 
 {{< section title="How much does it cost to fly?" alt="true" >}}

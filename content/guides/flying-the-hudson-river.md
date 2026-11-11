@@ -73,7 +73,7 @@ An example call: *"Skyhawk, VZ, one thousand one hundred, northbound."*
 - **Weather.** The Class B floor caps you at 1,299 ft, so you need a ceiling comfortably above that. Haze and wind over the river can make it harder than it looks.
 - **Training.** Take the FAA's free online Hudson River SFRA course on [FAASafety.gov](https://www.faasafety.gov).
 - **Passengers and photos.** Brief passengers to stay quiet near reporting points and to help spot traffic. Decide in advance who's taking pictures. It isn't the pilot.
-- **The aircraft.** Both club aircraft have the Garmin GPS 175, which helps with situational awareness in the corridor. {{< todo "Any club tips: autopilot use, which plane members prefer for photos" >}}
+- **The aircraft.** Both club aircraft have the Garmin GTN 650Xi, which helps with situational awareness in the corridor. {{< todo "Any club tips: autopilot use, which plane members prefer for photos" >}}
 
 ## Flying it from Linden
 
