@@ -37,9 +37,8 @@ meeting:
 # Leave a value empty until the club decides it. Empty values show a highlighted
 # placeholder, and the production deploy refuses to run while any placeholder is live.
 contact:
-  email: ""
+  email: contact@richmondpilots.org
   address:             # One list item per line
-    - Linden Airport (KLDJ)
     - 1101 W Edgar Rd
     - Linden, NJ 07036
   inquiry_form_url: "" # Link to the waiting list inquiry form
