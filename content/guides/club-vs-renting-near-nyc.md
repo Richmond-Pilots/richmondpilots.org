@@ -2,8 +2,8 @@
 title: Flying club vs. flight school near NYC
 draft: true
 reviewed: 2026-11-10
-description: Contrast flying clubs and flight schools for cost and availability.
-lede: "Contrast flying clubs and flight schools for cost and availability."
+description: "A comparison of flying clubs and flight schools near NYC: hourly costs, multi-day trips, aircraft availability, and more."
+lede: "How flying clubs and flight schools compare on cost, trips, and availability."
 ---
 
 ## Overview

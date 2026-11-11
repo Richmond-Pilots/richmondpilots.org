@@ -11,6 +11,8 @@
   --color-muted: #525b59;
   --color-accent: #0c5a53;
   --color-accent-contrast: #ffffff;
+  --color-accent-tint: #e5f0ee;
+  --color-accent-tint-strong: #d6e8e4;
   --color-border: #d7dcda;
   --color-strong-border: #1a1f1e;
   --color-todo-bg: #fff1a6;
@@ -104,9 +106,15 @@ p, li, dd, figcaption { text-wrap: pretty; }
 /* Tables */
 .table-scroll { margin-bottom: calc(var(--space-unit) * 3); overflow-x: auto; }
 .data-table { width: 100%; border-collapse: collapse; font-size: 1rem; font-variant-numeric: tabular-nums; }
-.data-table th, .data-table td { padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2) calc(var(--space-unit) * 1.5) 0; border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
-.data-table thead th { border-bottom: 2px solid var(--color-strong-border); font-size: .9375rem; font-weight: 600; color: var(--color-muted); }
+.data-table th, .data-table td { padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2); border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+.data-table thead th { border-bottom: 2px solid var(--color-strong-border); background: var(--color-surface); font-size: .9375rem; font-weight: 600; color: var(--color-muted); }
 .data-table tbody th { font-weight: 700; }
+.data-table tbody tr:nth-child(even) { background: var(--color-surface); }
+/* Columns for the club's own figures, and the saving, in comparison tables. */
+.data-table .is-club { background: var(--color-accent-tint); }
+.data-table tbody tr:nth-child(even) .is-club { background: var(--color-accent-tint-strong); }
+.data-table thead .is-club { background: var(--color-accent); color: var(--color-accent-contrast); }
+.data-table .is-saving { color: var(--color-accent); font-weight: 700; }
 /* Note under a table: tucked close to the table, with room before the next paragraph. */
 .table-note { max-width: var(--measure); margin: calc(var(--space-unit) * -1.5) 0 calc(var(--space-unit) * 4); color: var(--color-muted); font-size: .9375rem; line-height: 1.5; }
 
@@ -194,8 +202,8 @@ p, li, dd, figcaption { text-wrap: pretty; }
   .data-table thead { display: none; }
   .data-table, .data-table tbody, .data-table tr { display: block; }
   .data-table tr { padding: calc(var(--space-unit) * 1.5) 0; border-top: 2px solid var(--color-strong-border); }
-  .data-table tbody th { display: block; padding: 0 0 var(--space-unit); border: 0; font-size: 1.125rem; }
-  .data-table td { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: var(--space-unit); padding: calc(var(--space-unit) * .75) 0; }
+  .data-table tbody th { display: block; padding: 0 calc(var(--space-unit) * 1.5) var(--space-unit); border: 0; font-size: 1.125rem; }
+  .data-table td { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: var(--space-unit); padding: calc(var(--space-unit) * .75) calc(var(--space-unit) * 1.5); }
   .data-table td::before { content: attr(data-label); color: var(--color-muted); }
   .data-table td:last-child { border-bottom: 0; }
   .footer-grid { grid-template-columns: minmax(0, 1fr); gap: calc(var(--space-unit) * 3); }

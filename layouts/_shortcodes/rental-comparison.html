@@ -1,8 +1,8 @@
 <div class="table-scroll"><table class="data-table">
-<thead><tr><th scope="col">Aircraft</th><th scope="col">Flight School, Hobbs Rate</th><th scope="col">Richmond Pilots Tach Rates</th><th scope="col">Richmond Pilots Hobbs Rates (est.)</th><th scope="col">Club saving</th></tr></thead>
+<thead><tr><th scope="col">Aircraft</th><th scope="col">Flight School, Hobbs Rate</th><th scope="col" class="is-club">Richmond Pilots Tach Rates</th><th scope="col" class="is-club">Richmond Pilots Hobbs Rates (est.)</th><th scope="col">Club saving</th></tr></thead>
 <tbody>
 {{- range partial "rental-rows.html" . }}
-<tr><th scope="row">{{ .club.model }}</th><td data-label="Flight School, Hobbs Rate">${{ .rental }}</td><td data-label="Richmond Pilots Tach Rates">${{ .club.rate }}</td><td data-label="Richmond Pilots Hobbs Rates (est.)">${{ lang.FormatNumberCustom 0 .clubHobbs }}</td><td data-label="Club saving">{{ math.Round .savings }}%</td></tr>
+<tr><th scope="row">{{ .club.model }}</th><td data-label="Flight School, Hobbs Rate">${{ .rental }}</td><td class="is-club" data-label="Richmond Pilots Tach Rates">${{ .club.rate }}</td><td class="is-club" data-label="Richmond Pilots Hobbs Rates (est.)">${{ lang.FormatNumberCustom 0 .clubHobbs }}</td><td class="is-saving" data-label="Club saving">{{ math.Round .savings }}%</td></tr>
 {{- end }}
 </tbody>
 </table></div>
