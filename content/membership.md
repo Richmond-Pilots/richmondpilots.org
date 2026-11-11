@@ -15,7 +15,13 @@ We highly encourage all prospective members to attend our monthly meetings.
 {{< meeting >}}
 {{< /section >}}
 
-{{< section title="Can I learn to fly with the club?" alt="true" >}}
+{{< section title="Fees" alt="true" >}}
+{{< membership-fees >}}
+
+The deposit is refundable if you decide to leave the club after a minimum of 3 years. If you decide to leave the club earlier, you will receive a pro-rated amount of the deposit. See [aircraft and rates](/aircraft-and-rates/) for hourly rates.
+{{< /section >}}
+
+{{< section title="Can I learn to fly with the club?" >}}
 The club has CFI/CFIIs available weekdays and weekends. Additionally, any non-member CFI can be checked out to teach in club aircraft provided the instruction is for members only. The club routinely admits students with no experience at all.
 
 {{< photo src="in-flight-near-linden.jpg" >}}

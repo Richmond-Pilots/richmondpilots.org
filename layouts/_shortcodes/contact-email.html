@@ -1,1 +1,2 @@
-{{- with hugo.Data.club.contact.email -}}<a href="mailto:{{ . }}">{{ . }}</a>{{- else -}}{{ partial "todo.html" "Club email to be confirmed" }}{{- end -}}
+{{- /* The club email as a mailto link. Optional link text: {{< contact-email "get in touch" >}} */ -}}
+{{- with hugo.Data.club.contact.email -}}<a href="mailto:{{ . }}">{{ $.Get 0 | default . }}</a>{{- else -}}{{ partial "todo.html" "Club email to be confirmed" }}{{- end -}}
