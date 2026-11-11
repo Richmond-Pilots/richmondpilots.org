@@ -28,11 +28,6 @@ pageRef = "/aircraft-and-rates"
 weight = 20
 
 [[menus.main]]
-name = "Joining"
-pageRef = "/joining"
-weight = 30
-
-[[menus.main]]
 name = "Guides"
 pageRef = "/guides"
 weight = 40

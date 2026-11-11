@@ -31,7 +31,7 @@ The deposit is refundable if you decide to leave the club after a minimum of 3 y
 {{< /section >}}
 
 {{< section title="How joining works" >}}
-We suggest that you come to one of our meetings first or get in touch. You are invited to join any club meeting. See [how to join](/joining/).
+We suggest that you come to one of our meetings first or get in touch. You are invited to join any club meeting. See [how to join](/membership/).
 {{< /section >}}
 
 {{< section title="History" alt="true" >}}
