@@ -22,6 +22,8 @@ There are a lot of helicopters. They're flown by commercial pilots who are good 
 
 There's food and shopping within a mile, and the terminal has a shower. There's no crew car, and fuel is expensive.
 
+{{< photo src="n38pd-on-ramp.jpg" >}}
+
 | | |
 |---|---|
 | Tower | None. CTAF 123.0 |
@@ -104,6 +106,8 @@ These airports take longer to reach from Manhattan. If you live in Westchester, 
 ## What about Teterboro?
 
 Teterboro is about 10 miles from Midtown, closer than any other airport in this guide, but almost nobody learns or rents there. It's mostly a business jet airport now. Most of the tie-downs for light aircraft are gone, and the landing and handling fees are too high for training.
+
+{{< photo src="teterboro-aerial.jpg" >}}
 
 You can still land a small plane there. It's a busy Class D under Newark's Class B, and you may have jets ahead of and behind you on final. Call an FBO first to ask what it will cost.
 
