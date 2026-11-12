@@ -3,14 +3,12 @@ title: Best GA airports near NYC
 draft: true
 reviewed: 2026-11-10
 description: Comparing general aviation airports around New York City, including Linden, Morristown, Caldwell and Republic, and how to get to each without a car.
-lede: "[Outline only. A member writes the final text.]"
+lede: "Where to fly general aviation around New York City, and how to get there without a car."
 ---
 
-Welcome! This guide is for anyone who has thought about flying GA in New York City and decided it was impossible, or just too difficult.
+Learning to fly, or simply staying current, from New York City can look impossible. It isn't. Several good airports sit within an hour of Manhattan, and most of them can be reached by train. Plenty of our members fly without owning a car, some with a folding bike for the last mile from the station.
 
-It's tough, but it isn't impossible. Many of us at the club have made it work, even with public transport. Many of us have also considered a folding bike on the train, among other last-mile solutions, to get from the station to the airport.
-
-The notes below were gathered from members of the club, who have flown out of these airports and shared what they've learned.
+This guide covers the airports our members know firsthand: what flying there is like, how to get there, and who rents or trains on the field.
 
 Airport facts were checked on 10 November 2026 against the [FAA Chart Supplement](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/). Driving times are rough, with normal traffic. Always check the current Chart Supplement and NOTAMs before you fly.
 
@@ -18,25 +16,25 @@ Airport facts were checked on 10 November 2026 against the [FAA Chart Supplement
 
 ### Linden (KLDJ), Linden, NJ
 
-Linden has lots of helicopters, but the rotor pilots there are pros: very friendly and very responsible. They look out for you, and they're great on the radio.
+Linden is the closest general aviation airport to Manhattan, and the easiest to reach by public transport: the NJ Transit station is under two miles away. It sits beneath Newark's Class B with an 800 ft pattern altitude, which makes pattern work and instrument procedures more demanding. It's also the natural starting point for the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour.
 
-The low pattern altitude under the Class B makes pattern work a little more challenging, but not impossible.
+Expect plenty of helicopters. Their pilots are commercial professionals, sharp on the radio and careful with traffic.
 
-Honestly, it's the best airport to fly out of for the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour.
+On the ground there's food and shopping within a mile and a shower in the terminal. There's no crew car, and fuel is expensive.
 
 | | |
 |---|---|
 | Tower | None. CTAF 123.0 |
 | Runway | 9/27, 4,140 ft |
-| Airspace | {{< todo "Class B floor overhead (check the NY TAC)" >}} |
-| By train | NJ Transit from Penn Station to Linden, then about 2 miles by taxi |
+| Airspace | Under the New York Class B. Pattern altitude 800 ft MSL |
+| By train | NJ Transit from Penn Station to Linden, then 1.8 miles by taxi |
 | By car | From Midtown, about 23 miles, 45 min–1 hr. From St. George, Staten Island, about 14 miles via the Goethals Bridge, 30–45 min |
 | Who flies here | [Richmond Pilots](/) (club), [LuvsFlying](https://www.luvsflying.com) (flight school) |
 | Good to know | Touch-and-gos for based aircraft only; others need prior permission. Landing fee for transient aircraft |
 
 ### Morristown (KMMU), Morristown, NJ
 
-{{< todo "What it's like to fly from Morristown" >}}
+Morristown mixes business jets with a lot of general aviation, and it's a pleasant place to fly: long runways and excellent controllers. The pattern gets busy with the local flight schools. Its Class D borders Caldwell's, so flights to the northeast transition through Caldwell's airspace.
 
 | | |
 |---|---|
@@ -50,7 +48,7 @@ Honestly, it's the best airport to fly out of for the [Hudson River corridor](ht
 
 ### Essex County / Caldwell (KCDW), Fairfield, NJ
 
-{{< todo "What it's like to fly from Caldwell" >}}
+Caldwell is busy and mostly general aviation, with fewer jets and helicopters than Morristown. Expect four or five aircraft in the pattern at once. The tower often runs touch-and-gos on one runway, say 22, while departures use another, such as 28. Its Class D borders Morristown's, so flights to the southwest transition through Morristown's airspace.
 
 | | |
 |---|---|
@@ -91,7 +89,7 @@ Honestly, it's the best airport to fly out of for the [Hudson River corridor](ht
 
 ## What about Teterboro?
 
-{{< todo "Why Teterboro is close but not where most people learn or rent" >}}
+Teterboro is the closest airport to Manhattan, but it's built around business jets. Most of the GA tie-downs are gone, and landing and handling fees make it prohibitively expensive for a small plane. {{< todo "When landing at Teterboro still makes sense" >}}
 
 ## Where to rent or join
 
