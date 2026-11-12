@@ -6,9 +6,9 @@ description: Comparing general aviation airports around New York City, including
 lede: "Where to fly general aviation around New York City, and how to get there without a car."
 ---
 
-If you live in New York City, flying a small plane can feel like something other people do. It's more doable than it looks. There are good airports within an hour of Manhattan, and you can get to most of them by train. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
+If you live in New York City, learning to fly can seem out of reach. It's closer than you might think. Several good airports lie within an hour of Manhattan, and you can get to most of them by train. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
 
-Below are the airports we know best, what it's like to fly from each one, how to get there, and who you can rent from or learn with.
+Below are the airports we know best, with notes on what flying there is like, how to get there, and where to rent or learn.
 
 We checked the airport facts against the [FAA Chart Supplement](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/) on 10 November 2026. Driving times are rough guesses for normal traffic. As always, check the current Chart Supplement and NOTAMs before you go.
 
@@ -16,7 +16,7 @@ We checked the airport facts against the [FAA Chart Supplement](https://www.faa.
 
 ### Linden (KLDJ), Linden, NJ
 
-Linden is our home field, and it's the closest place to Manhattan where you can rent a plane or take lessons. The NJ Transit station is less than two miles away. You fly under Newark's Class B with a pattern altitude of 800 ft, so pattern work and instrument approaches keep you on your toes. On the plus side, the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour are just a few minutes away.
+Linden is our home field, and it's the closest place to Manhattan where you can rent a plane or take lessons. The NJ Transit station is less than two miles away. The field sits under Newark's Class B and the pattern altitude is 800 ft, so pattern work and instrument approaches keep you on your toes. On the plus side, the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour are just a few minutes away.
 
 You'll share the field with a lot of helicopters. Don't let that put you off. The pilots are commercial pros who are great on the radio and keep a good eye out for everyone else.
 
@@ -50,7 +50,7 @@ Morristown sees a lot of business jets, but plenty of light aircraft too, and it
 
 ### Essex County / Caldwell (KCDW), Fairfield, NJ
 
-Caldwell is mostly small planes, with fewer jets and helicopters than Morristown, and it's busy. It's normal to have four or five aircraft in the pattern, and the tower will often keep touch-and-gos on one runway (say 22) while departures use another (say 28). Its Class D touches Morristown's, so heading southwest means passing through Morristown's airspace.
+Caldwell is busy, mostly with small planes, and sees fewer jets and helicopters than Morristown. Four or five aircraft in the pattern is normal. The tower often keeps touch-and-gos on one runway, such as 22, while departures use another, such as 28. Its Class D touches Morristown's, so if you're headed southwest, you'll pass through Morristown's airspace.
 
 | | |
 |---|---|
@@ -64,9 +64,9 @@ Caldwell is mostly small planes, with fewer jets and helicopters than Morristown
 
 ### Republic (KFRG), Farmingdale, NY
 
-Republic is one of the busiest general aviation airports around, so be ready to wait your turn at the hold short line. The good news is the controllers. So many students train here that they're friendly and patient, and it's a good place to get comfortable on the radio.
+Republic is one of the busiest general aviation airports around, so be ready to wait your turn at the hold short line. The upside is the controllers. They work with so many students that they're friendly and patient, which makes Republic a good place to get comfortable on the radio.
 
-Most students head south to practice maneuvers over Captree and Jones Beach, and it's a beautiful flight along the shore.
+Most students practice maneuvers to the south, over Captree and Jones Beach. The flight along the shore is beautiful.
 
 On the ground there are several FBOs, and Farmingdale village has lots of good places to eat.
 
@@ -92,7 +92,7 @@ These take longer to reach from Manhattan, but if you live in Westchester, on Lo
 
 **Brookhaven** is non-towered and always busy, with skydivers, gliders and training flights all day long, so keep your head on a swivel. Touch-and-gos aren't recommended at weekends, on holidays or after dark. The fees are low.
 
-**Bridgeport** and **New Haven** sit on the Connecticut shore of Long Island Sound. Both have towers that keep part-time hours. You'll see Sikorsky helicopters around Bridgeport and airliners at New Haven. Either one makes a lovely cross-country, flying up the Sound from the city.
+**Bridgeport** and **New Haven** sit on the Connecticut shore of Long Island Sound. Both have towers that keep part-time hours. You'll see Sikorsky helicopters around Bridgeport and airliners at New Haven. The flight up the Sound from the city to either one is a lovely cross-country.
 
 | Airport | Tower | Longest runway | By train | By car from Midtown | Who flies here |
 |---|---|---|---|---|---|
@@ -109,7 +109,7 @@ Teterboro is about 10 miles from Midtown, closer than anywhere else in this guid
 
 {{< photo src="teterboro-aerial.jpg" >}}
 
-You can still fly in. Just know you're landing in a busy Class D under Newark's Class B, possibly with jets in front of and behind you on final, and call an FBO first to find out what it'll cost.
+You can still fly in. Expect a busy Class D under Newark's Class B, possibly with jets ahead of and behind you on final, and call an FBO first to find out what it will cost.
 
 | | |
 |---|---|
@@ -124,12 +124,12 @@ Around New York you have three options: rent from a flight school, join a flying
 
 **Flight schools** are the easiest way to start. There's nothing to pay upfront, they usually have more planes, and it's easier to book an instructor. The catch is the hourly rate, which is much higher than a club's. If you're aiming for the airlines, [ATP](https://atpflightschool.com) runs fast-track programs at Morristown and Caldwell. Local schools include [Academy of Aviation](https://www.academyofaviation.com) (Republic and Westchester), [Certified Flyers](https://www.certifiedflyers.com) (Morristown), [Costanzo Air](https://www.costanzoair.com) (Caldwell) and [LuvsFlying](https://www.luvsflying.com) (Linden).
 
-**Flying clubs** are cheaper to fly because the members own the planes and nobody's making a profit. You pay to join and a monthly fee, and in return the hourly rate is often about half what a school charges. Clubs in this guide include [Paramus Flying Club](https://www.flyingclub.org) at Caldwell, [150th Aero](https://www.150thaero.org) at Morristown and [Yale Aviation](https://www.yaleaviation.org) at New Haven. Our [club vs. flight school guide](/guides/club-vs-renting-near-nyc/) walks through the numbers.
+**Flying clubs** are cheaper to fly because the members own the planes and nobody's making a profit. You pay a joining fee and monthly dues, and in return the hourly rate is often about half what a school charges. Clubs in this guide include [Paramus Flying Club](https://www.flyingclub.org) at Caldwell, [150th Aero](https://www.150thaero.org) at Morristown and [Yale Aviation](https://www.yaleaviation.org) at New Haven. Our [club vs. flight school guide](/guides/club-vs-renting-near-nyc/) walks through the numbers.
 
 If you want to fly a Cirrus, try [Nassau Flyers](https://www.nassauflyers.com) or [Performance Flight](https://flypf.com). For light sport training, look at [Airborne Elite](https://flyforreal.com) or [Liftoff Pilot Academy](https://liftoffpilotacademy.com).
 
 ### Richmond Pilots
 
-Richmond Pilots has been around since 1967. We're a non-profit club owned by our members, with two IFR Cessna 172s at Linden that members fly for {{< rate-range >}} per hour wet. Student pilots are welcome, our instructors teach in the club planes, and members can take the planes away for multi-day trips.
+Richmond Pilots has been around since 1967. We're a non-profit club owned by our members. We keep two IFR Cessna 172s at Linden, and members fly them for {{< rate-range >}} per hour wet. Student pilots are welcome, our instructors teach in the club planes, and members can take the planes on multi-day trips.
 
 The best way to get to know us is to come to one of our monthly meetings on Staten Island. You can also look at our [aircraft and rates](/aircraft-and-rates/) or read how to [become a member](/membership/).
