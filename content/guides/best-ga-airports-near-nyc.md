@@ -62,7 +62,11 @@ Caldwell is busy and mostly general aviation, with fewer jets and helicopters th
 
 ### Republic (KFRG), Farmingdale, NY
 
-{{< todo "What it's like to fly from Republic" >}}
+Republic is one of the busiest general aviation airports in the region, so plan on some time at the hold short line waiting your turn for the runway. The controllers make up for it. With so many students training here, they're friendly and patient, and a good place to build confidence on the radio.
+
+The practice areas are a highlight. Most students head south to work on maneuvers over Captree and Jones Beach, which means your airwork comes with a view of the barrier beaches and the Atlantic.
+
+On the ground, there are several FBOs, strip malls nearby, and plenty of good food in the village of Farmingdale.
 
 | | |
 |---|---|
