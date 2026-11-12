@@ -95,7 +95,7 @@ On the ground, there are several FBOs, strip malls nearby, and plenty of good fo
 
 Teterboro sits about 10 miles from Midtown, closer than any other airport in this guide, yet almost nobody learns or rents there. It has become an airport built around business jets. Most of the tie-downs for light aircraft are gone, and landing and handling fees put it out of reach for a training budget.
 
-That doesn't mean a small plane is unwelcome. Teterboro is open to everyone, and landing there is a memorable exercise: a busy Class D tucked beneath Newark's Class B, with Gulfstreams on final ahead of and behind you. It's worth doing once with an instructor, and worth calling an FBO ahead to ask about fees before you go.
+A small plane can still land there, into a busy Class D tucked beneath Newark's Class B, with Gulfstreams on final ahead of and behind you. If you do, call an FBO first and ask what it will cost.
 
 | | |
 |---|---|
