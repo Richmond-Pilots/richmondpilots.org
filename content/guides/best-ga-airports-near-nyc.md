@@ -82,15 +82,15 @@ On the ground, there are several FBOs, strip malls nearby, and plenty of good fo
 
 From Manhattan these airports are a longer trip, but if you live in Westchester, on Long Island or in southern Connecticut, one of them may well be your closest field.
 
-**Lincoln Park** is a small, quiet field in North Jersey. Its runway is short, touch-and-gos aren't allowed, and nobody staffs the field at weekends, so it suits pilots heading out for a flight more than pattern work.
+**Lincoln Park** is a small, quiet, non-towered field in North Jersey. Its runway is short, touch-and-gos are prohibited, and the airport is unattended at weekends. It suits pilots heading out for a flight rather than pattern work.
 
-**Westchester** is an airline airport first. Light aircraft are welcome, but expect a strict noise program and a busy frequency, and the Cirrus fleet at Performance Flight if you're shopping for something newer.
+**Westchester** is a busy mix of airlines, business jets and general aviation. Light aircraft are welcome, but expect plenty of radio traffic and established noise-abatement procedures. Performance Flight flies a Cirrus fleet here if you're shopping for something newer.
 
-**Islip** is the only Class C in this guide. It's a good place to get comfortable working with approach control, with long runways and plenty of room. Watch for low VFR traffic around Bayport, a grass field three miles southeast.
+**Islip** is the only Class C airport in this guide, and a good place to get comfortable working with approach control. Watch for low VFR traffic around Bayport, a grass field three miles southeast, particularly on the approach to Runway 33L.
 
-**Brookhaven** is the lively one. It's non-towered, with skydivers, gliders and training flights around the clock, and it rewards a sharp lookout. It's also cheap to visit: overnight parking was $5 at last check.
+**Brookhaven** is the lively one. It's non-towered, with skydivers, gliders and training flights throughout the day, and it rewards a sharp lookout. Touch-and-gos are discouraged at weekends, on holidays and after dark. It's inexpensive to visit, though landing and parking fees apply.
 
-**Bridgeport** and **New Haven** sit on the Long Island Sound shoreline, and both are towered. Sikorsky's helicopters keep the airspace north of Bridgeport busy, and New Haven is adding airline service. Either makes a scenic cross-country from the city along the Sound.
+**Bridgeport** and **New Haven** sit on the Long Island Sound shoreline, and both have towers that operate during published hours. Sikorsky's helicopters keep the airspace around Bridgeport interesting, and New Haven now has a busy airline schedule. Either makes a scenic cross-country from the city along the Sound.
 
 | Airport | Tower | Longest runway | By train | By car from Midtown | Who flies here |
 |---|---|---|---|---|---|
