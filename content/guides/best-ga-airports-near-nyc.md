@@ -16,7 +16,7 @@ Airport facts were checked on 10 November 2026 against the [FAA Chart Supplement
 
 ### Linden (KLDJ), Linden, NJ
 
-Linden is the closest general aviation airport to Manhattan, and the easiest to reach by public transport: the NJ Transit station is under two miles away. It sits beneath Newark's Class B with an 800 ft pattern altitude, which makes pattern work and instrument procedures more demanding. It's also the natural starting point for the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour.
+Linden is the closest airport to Manhattan built for training and rental flying, and the easiest to reach by public transport: the NJ Transit station is under two miles away. It sits beneath Newark's Class B with an 800 ft pattern altitude, which makes pattern work and instrument procedures more demanding. It's also the natural starting point for the [Hudson River corridor](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=79) and the skyline tour.
 
 Expect plenty of helicopters. Their pilots are commercial professionals, sharp on the radio and careful with traffic.
 
@@ -93,7 +93,16 @@ On the ground, there are several FBOs, strip malls nearby, and plenty of good fo
 
 ## What about Teterboro?
 
-Teterboro is the closest airport to Manhattan, but it's built around business jets. Most of the GA tie-downs are gone, and landing and handling fees make it prohibitively expensive for a small plane. {{< todo "When landing at Teterboro still makes sense" >}}
+Teterboro sits about 10 miles from Midtown, closer than any other airport in this guide, yet almost nobody learns or rents there. It has become an airport built around business jets. Most of the tie-downs for light aircraft are gone, and landing and handling fees put it out of reach for a training budget.
+
+That doesn't mean a small plane is unwelcome. Teterboro is open to everyone, and landing there is a memorable exercise: a busy Class D tucked beneath Newark's Class B, with Gulfstreams on final ahead of and behind you. It's worth doing once with an instructor, and worth calling an FBO ahead to ask about fees before you go.
+
+| | |
+|---|---|
+| Tower | Yes; Class D |
+| Runways | 1/19, 6,997 ft; 6/24, 6,014 ft |
+| Pattern altitude | 1,000 ft MSL for light aircraft |
+| Good to know | Landing fee, FBO handling fees and a strict noise program |
 
 ## Where to rent or join
 
