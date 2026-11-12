@@ -80,7 +80,17 @@ On the ground, there are several FBOs, strip malls nearby, and plenty of good fo
 
 ## Further out
 
-{{< todo "Your notes on Lincoln Park, Westchester, Islip, Brookhaven, Bridgeport and New Haven" >}}
+From Manhattan these airports are a longer trip, but if you live in Westchester, on Long Island or in southern Connecticut, one of them may well be your closest field.
+
+**Lincoln Park** is a small, quiet field in North Jersey. Its runway is short, touch-and-gos aren't allowed, and nobody staffs the field at weekends, so it suits pilots heading out for a flight more than pattern work.
+
+**Westchester** is an airline airport first. Light aircraft are welcome, but expect a strict noise program and a busy frequency, and the Cirrus fleet at Performance Flight if you're shopping for something newer.
+
+**Islip** is the only Class C in this guide. It's a good place to get comfortable working with approach control, with long runways and plenty of room. Watch for low VFR traffic around Bayport, a grass field three miles southeast.
+
+**Brookhaven** is the lively one. It's non-towered, with skydivers, gliders and training flights around the clock, and it rewards a sharp lookout. It's also cheap to visit: overnight parking was $5 at last check.
+
+**Bridgeport** and **New Haven** sit on the Long Island Sound shoreline, and both are towered. Sikorsky's helicopters keep the airspace north of Bridgeport busy, and New Haven is adding airline service. Either makes a scenic cross-country from the city along the Sound.
 
 | Airport | Tower | Longest runway | By train | By car from Midtown | Who flies here |
 |---|---|---|---|---|---|
@@ -106,4 +116,16 @@ A small plane can still land there, into a busy Class D tucked beneath Newark's 
 
 ## Where to rent or join
 
-{{< todo "The honest roundup, ending with Richmond Pilots" >}}
+There are three ways to get into a plane around New York: a flight school, a flying club, or a small specialty operator.
+
+**Flight schools** are the easiest place to start. There's no upfront cost, the fleets are larger, and instructors are easier to book. The trade-off is the hourly rate, usually far higher than a club's. [ATP](https://atpflightschool.com) at Morristown and Caldwell runs fast-track programs for pilots heading to the airlines. Larger local schools such as [Academy of Aviation](https://www.academyofaviation.com) (Republic and Westchester), [Certified Flyers](https://www.certifiedflyers.com) (Morristown), [Costanzo Air](https://www.costanzoair.com) (Caldwell) and [LuvsFlying](https://www.luvsflying.com) (Linden) suit pilots who train at their own pace.
+
+**Flying clubs** cost less to fly, because members own the aircraft and nobody is running it for profit. You pay to join and a monthly fee, and in return the hourly rate drops, often to half the price of a school. Clubs in this guide include [Paramus Flying Club](https://www.flyingclub.org) at Caldwell, [150th Aero](https://www.150thaero.org) at Morristown and [Yale Aviation](https://www.yaleaviation.org) at New Haven. Our [club vs. flight school guide](/guides/club-vs-renting-near-nyc/) runs the numbers.
+
+**Specialty operators** fill the gaps: Cirrus rentals at [Nassau Flyers](https://www.nassauflyers.com) and [Performance Flight](https://flypf.com), and light sport training at [Airborne Elite](https://flyforreal.com) and [Liftoff Pilot Academy](https://liftoffpilotacademy.com).
+
+### Richmond Pilots
+
+We're biased, but we think Linden is the best place for a New Yorker to fly. Richmond Pilots has flown since 1967, and today the club is a non-profit, member-owned club with two IFR Cessna 172s at Linden, flown for {{< rate-range >}} per hour wet. Student pilots are welcome, club instructors teach in club aircraft, and members can take the planes on multi-day trips.
+
+Come and meet us at a monthly meeting on Staten Island, see [aircraft and rates](/aircraft-and-rates/), or find out how to [become a member](/membership/).
