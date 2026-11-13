@@ -124,7 +124,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 .table-note { max-width: var(--measure); margin: calc(var(--space-unit) * -1.5) 0 calc(var(--space-unit) * 4); color: var(--color-muted); font-size: .9375rem; line-height: 1.5; }
 
 /* Photos at their own size */
-.photo { margin: calc(var(--space-unit) * 4) 0 0; max-width: 720px; }
+.photo { margin: calc(var(--space-unit) * 4) 0 calc(var(--space-unit) * 3); max-width: 720px; }
 .photo img { border-radius: var(--radius); }
 .photo figcaption { margin-top: var(--space-unit); color: var(--color-muted); font-size: .9375rem; }
 
@@ -240,7 +240,7 @@ p, li, dd, figcaption { text-wrap: pretty; }
 }
 
 /* Side-by-side photos */
-.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: calc(var(--space-unit) * 2); margin-top: calc(var(--space-unit) * 4); }
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: calc(var(--space-unit) * 2); margin: calc(var(--space-unit) * 4) 0 calc(var(--space-unit) * 3); }
 .photo-grid .photo { margin: 0; max-width: none; }
 .section-body > .photo-grid { max-width: none; }
 .hero-media figcaption { margin-top: var(--space-unit); color: var(--color-muted); font-size: .875rem; }
