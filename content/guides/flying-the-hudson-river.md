@@ -12,6 +12,8 @@ New York, New York. Is there anything more magical than seeing the world's most 
 
 Wondering how you can do this? It's easier than you might think. If you're a licensed pilot, student, aspiring to become one, or just generally interested in flying, read on.
 
+{{< photo src="lower-manhattan-night.jpg" >}}
+
 ## Two ways to fly the Hudson
 
 - **Below the Class B, in the Hudson River Exclusion.** No clearance needed. You fly under your own navigation and self-announce on a common frequency.
@@ -94,6 +96,8 @@ Yes, if LaGuardia Tower can fit you in, as their Class B sits right over it. Fro
 
 If you're coming from the south and want to go up the East River first, then cross west to the Hudson, you need to pass your whole request to LaGuardia Tower on 126.05 before reaching Governors Island.
 
+{{< photo src="yankee-stadium-aerial.jpg" >}}
+
 ## Before you go
 
 - **TFRs.** Presidential and VIP TFRs over Manhattan are common, especially during the UN General Assembly in September. Check NOTAMs on the day.
@@ -115,6 +119,8 @@ Section 91.119 allows you to fly below the minimum when necessary for takeoff or
 A typical round trip takes about 1 Hobbs hour. See what that costs in a club aircraft in [Flying club vs. renting near NYC](/guides/club-vs-renting-near-nyc/).
 
 **Sunset and night flights** are the perfect time to take your friends, family and loved ones! Many of our members have flown the Hudson at each phase of the day, to compare and contrast the experience. Each has its own pros and cons.
+
+{{< photo src="tribute-in-light.jpg" >}}
 
 {{< todo "A member's own story of their first Hudson flight, ideally with a photo" >}}
 
