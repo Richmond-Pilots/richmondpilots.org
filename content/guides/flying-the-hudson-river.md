@@ -12,7 +12,7 @@ New York, New York. Is there anything more magical than seeing the world's most 
 
 Wondering how you can do this? It's easier than you might think. If you're a licensed pilot, student, aspiring to become one, or just generally interested in flying, read on.
 
-{{< photo src="lower-manhattan-night.jpg" >}}
+{{< photo src="lower-manhattan-day.jpg" >}}
 
 ## Two ways to fly the Hudson
 
@@ -76,10 +76,14 @@ An example call: *"Skyhawk, VZ, one thousand one hundred, northbound."*
 - This is the busiest spot in the corridor. It's where tour helicopters turn around, at about 500 ft, and where many climb into the Class B. Keep your eyes peeled, listen to the radio, and make regular announcements, e.g. *"Skyhawk, Statue, 900 ft, orbiting counterclockwise."*
 - Newark's airspace begins above 500 ft MSL just west of the Statue, so don't drift west while circling.
 
+{{< photos "statue-of-liberty-above.jpg" "statue-and-ellis-island.jpg" >}}
+
 ### East River Exclusion: not for planes
 
 - Airplanes may not fly the East River Exclusion, from Governors Island to Roosevelt Island, unless they're seaplanes landing or taking off, or LaGuardia Tower has authorized it (14 CFR 93.353).
 - Authorization is rarely practical for a sightseeing flight. Turn back, continue up the Hudson, or obtain a clearance to fly up the East River in the Bravo instead.
+
+{{< photo src="east-river-bridges.jpg" >}}
 
 ## Flying in the Bravo (the Skyline Route)
 
@@ -96,7 +100,7 @@ Yes, if LaGuardia Tower can fit you in, as their Class B sits right over it. Fro
 
 If you're coming from the south and want to go up the East River first, then cross west to the Hudson, you need to pass your whole request to LaGuardia Tower on 126.05 before reaching Governors Island.
 
-{{< photo src="yankee-stadium-aerial.jpg" >}}
+{{< photos "central-park-reservoir.jpg" "central-park-great-lawn.jpg" >}}
 
 ## Before you go
 
@@ -120,7 +124,7 @@ A typical round trip takes about 1 Hobbs hour. See what that costs in a club air
 
 **Sunset and night flights** are the perfect time to take your friends, family and loved ones! Many of our members have flown the Hudson at each phase of the day, to compare and contrast the experience. Each has its own pros and cons.
 
-{{< photo src="tribute-in-light.jpg" >}}
+{{< photos "lower-manhattan-night.jpg" "tribute-in-light.jpg" >}}
 
 {{< todo "A member's own story of their first Hudson flight, ideally with a photo" >}}
 
@@ -134,6 +138,9 @@ A typical round trip takes about 1 Hobbs hour. See what that costs in a club air
 - **Two options to turn back:**
   1. A course reversal on the Hudson, most commonly performed near the George Washington Bridge (GWB).
   2. Across Central Park (requires a Bravo clearance), then head south along the East River.
+
+{{< photos "george-washington-bridge.jpg" "yankee-stadium-aerial.jpg" >}}
+
 - **Handoff to LaGuardia (Bravo flyers).** Just after you pass the southern tip of Manhattan, Newark will typically hand you off to LaGuardia. You can then let them know your callsign, altitude and intentions.
 - **Southbound leg.** Whether you are returning south on the Hudson or the East River, you'll typically be handed back to Newark, workload permitting. Be prepared to descend into the Exclusion if they're unable to accommodate you, and switch to the CTAF, 123.05.
 - **Orbiting the Statue in the Exclusion (optional).** This is perhaps the part where you need to be most alert, and where the FAA course materials are especially relevant. Lights and radio calls are important. Given the Statue is on the western side, if you plan to make an orbit, it makes more sense to do it on your southbound return leg.

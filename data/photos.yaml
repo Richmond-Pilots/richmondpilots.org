@@ -37,15 +37,43 @@ teterboro-aerial:
 lower-manhattan-night:
   caption: Lower Manhattan at night, from over the Hudson
   alt: Night aerial view of Lower Manhattan from over the Hudson River, with One World Trade Center lit up above the Battery Park City waterfront
-  credit: Brian Donohue
+  credit: Larry Ferreira
 yankee-stadium-aerial:
   caption: Yankee Stadium in the Bronx
   alt: Aerial view of Yankee Stadium in the Bronx, surrounded by apartment buildings
-  credit: Brian Donohue
+  credit: Larry Ferreira
 tribute-in-light:
   caption: The Tribute in Light beside One World Trade Center, September 11
   alt: Night aerial view of Lower Manhattan with the twin blue beams of the Tribute in Light rising beside One World Trade Center
   credit: Larry Ferreira
 above-the-clouds-172:
   alt: View from a Cessna 172 cockpit of a solid cloud layer below, with the wing strut and underside of the wing in the foreground
-  credit: Larry Ferreira
+  credit: Brian Donohue
+lower-manhattan-day:
+  caption: Lower Manhattan from over the Upper Bay
+  alt: Lower Manhattan and One World Trade Center under a blue sky with scattered clouds, seen from the air over the harbor, with ferries and sailboats on the water
+  credit: Brian Donohue
+statue-of-liberty-above:
+  caption: The Statue of Liberty
+  alt: The Statue of Liberty and its star-shaped base on Liberty Island, seen from above, with a tour ferry at the dock
+  credit: Brian Donohue
+statue-and-ellis-island:
+  caption: Liberty Island and Ellis Island, with Jersey City behind
+  alt: Liberty Island and Ellis Island in the harbor, seen past the wing strut of a Cessna 172, with Liberty State Park and Jersey City beyond
+  credit: Brian Donohue
+east-river-bridges:
+  caption: The Brooklyn and Manhattan bridges and Lower Manhattan, flown in the Bravo
+  alt: View under a Cessna 172 wing looking south down the East River, with the Manhattan and Brooklyn bridges, Lower Manhattan's skyline and the Statue of Liberty in the distance
+  credit: Brian Donohue
+central-park-reservoir:
+  caption: Central Park and the reservoir, looking northeast
+  alt: Central Park's reservoir and Great Lawn seen under the wing of a Cessna 172, with the Upper East Side and the East River beyond
+  credit: Brian Donohue
+central-park-great-lawn:
+  caption: Central Park, looking south toward Midtown
+  alt: Central Park's Great Lawn below a Cessna 172 wing, with the Midtown Manhattan skyline and the Hudson River beyond
+  credit: Brian Donohue
+george-washington-bridge:
+  caption: The George Washington Bridge, a common place to turn back
+  alt: The George Washington Bridge's New Jersey tower and the Hudson River seen under the wing of a Cessna 172, with Fort Lee beyond
+  credit: Brian Donohue
