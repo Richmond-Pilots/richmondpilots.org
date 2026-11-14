@@ -27,7 +27,7 @@ Complement your planning with the FAA's [New York City SFRA course](https://www.
 - **NOTAMs, TFRs and ATIS.** Check them as part of your usual planning, and check again for restrictions before departure. Presidential, VIP, sports and event TFRs are common.
 - **Weather.** Assess visibility and cloud clearance along your planned route. Haze, wind and turbulence around buildings can make the flight more demanding than the forecast suggests.
 - **Passengers and photos.** Brief passengers to keep quiet near reporting points and help spot traffic. Decide in advance who's taking pictures. It isn't the pilot.
-- **Traffic displays.** Know how to use your aircraft's traffic display before departure. It can help you spot traffic, but it won't show everything. Keep your eyes outside.
+- **Traffic displays.** Know how to use your aircraft's traffic display before departure. It can help you spot traffic, but it won't show everything. Keep your eyes outside. Both club aircraft have the Garmin GTN 650Xi.
 
 ### Rehearse the radio
 
@@ -135,7 +135,7 @@ A typical round trip takes about 1 Hobbs hour. See what that costs in a club air
 - **Beware the Bravo.** Linden sits just under the Newark Bravo, with an 800 ft lower limit. This leaves little room for an unplanned climb. Make sure your altimeter is set correctly and keep a watchful eye on it.
 - **Caution: choppers.** Linden is a base for many helicopters. Be mindful of their presence and flying characteristics.
 
-{{< photo src="lower-manhattan-night-cockpit.jpg" >}}
+{{< photos "lower-manhattan-night.jpg" "tribute-in-light.jpg" >}}
 
 ### Leaving Linden
 
@@ -191,6 +191,8 @@ If returning via the VZ, check the surrounding airspace before turning toward Li
 The [Arthur Kill power station](https://maps.app.goo.gl/c7xpPRkTCtGkXBH49) stack, on Staten Island's western shore, is a useful landmark on the way home. So are the oil storage tanks, I‑95, the Rahway River and the solar farm near Linden.
 
 The airport itself can be hard to spot, especially from lower altitudes. Before tackling the trip on your own, consider a familiarization flight with someone who knows the area, especially if you plan to return at night.
+
+{{< photo src="lower-manhattan-night-cockpit.jpg" >}}
 
 ## A member's story
 
