@@ -181,6 +181,7 @@ It might seem intuitive to get as close as possible, but a higher orbit in the B
 - In a high-wing aircraft like the C172, the wing is less likely to block the Statue as you bank around it.
 - You aren't restricted to orbiting counterclockwise, which can give right-side passengers a clearer view.
 - ATC continues providing separation and traffic advisories.
+
 {{< photo src="liberty-island.jpg" >}}
 
 ### Back to Linden
