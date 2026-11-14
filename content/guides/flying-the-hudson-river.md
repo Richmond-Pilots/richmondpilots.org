@@ -6,7 +6,7 @@ description: How to fly the Hudson River past Manhattan in a light aircraft, inc
 lede: "Seeing New York from the air, and how to do it from Linden."
 ---
 
-*A quick note: this is an anecdotal guide based on club pilot experiences. It should not be used as a substitute for official sources.*
+*A quick note: this is an anecdotal guide based on club member experiences. It should not be used as a substitute for official sources.*
 
 New York, New York. Is there anything more magical than seeing the world's most iconic city from the air? Seeing it from the air at sunset, of course! Or perhaps seeing it from the air at night.
 
@@ -47,9 +47,9 @@ Besides, what pilot doesn't love sounding cool, calm and collected on the radio?
 - **Below the Class B, in the Hudson River Exclusion.** No clearance needed. You fly under your own navigation and self-announce on a common frequency.
 - **Through the Class B, on the Skyline Route.** You get a clearance from ATC and fly above the Exclusion, at 1,300 ft MSL or higher, with ATC providing separation.
 
-Which one to take? It's a hotly debated topic amongst pilots. Some prefer the Exclusion because no clearance is required and the view feels a little closer. Others prefer the extra set of eyes ATC provides and like being away from the traffic below.
+Which one to take? It's a hotly debated topic amongst pilots. Some prefer the Exclusion because no clearance is required and the view feels a little closer. Others prefer the extra set of eyes ATC provides and being away from the traffic below.
 
-There are of course a bunch of rules for flying in this area, both written and unspoken, which we will cover here.
+There are of course a bunch of rules for flying in this area, both written and unspoken, which we will try to cover here.
 
 ## The Hudson River Exclusion
 
@@ -106,7 +106,7 @@ Reports of approval for sightseeing flights are rare. Plan on requesting a route
 
 - **What it is.** The FAA's name for flying the Hudson *in* the Class B, at 1,300 ft MSL or higher, with an ATC clearance. You're under ATC control and separated from other traffic. Expect to be given an altitude and route, and to fly exactly that.
 - **Why fly it.** Less traffic to watch for, a higher and safer altitude over the city if the engine quits, and arguably a better view.
-- **Which frequency to call.** Watch out! It's not the usual Tower frequency. Both Newark and LaGuardia have a separate Tower controller who works the surrounding Class B airspace in a ~6 mile radius from the airport, sometimes called the helicopter position. From the south, you'd typically contact Newark on **127.85**. Coming from the north, you'd usually talk to LaGuardia on **126.05**. During quiet periods, it may be combined with the primary Tower frequency. If ATC staffing is short, these positions are often the first to go, so check NOTAMs and ATIS for any changes.
+- **Which frequency to call.** Watch out! It's not the usual Tower frequency. Both Newark and LaGuardia have a separate Tower controller who works the surrounding Class B airspace in a ~6 mile radius from the airport, sometimes called the helicopter position. From the south, you'd typically contact Newark on **127.85**. Coming from the north, you'd usually talk to LaGuardia on **126.05**. During quiet periods, it may be combined with the primary Tower frequency. If ATC are short-staffed, this position is often the first to go, so check NOTAMs and ATIS for any changes.
 - **The catch.** ATC grants it only when workload allows, so have a plan for flying the Exclusion instead.
 - **How to ask for it.** Give your callsign and position, and request *"Hudson northbound"* (or southbound) or *"the Skyline."*
 - **Remember "Class B clearance."** You aren't in until you hear *"cleared into the Bravo."* Until then, remain outside.
@@ -115,7 +115,7 @@ Reports of approval for sightseeing flights are rare. Plan on requesting a route
 
 Yes, if LaGuardia Tower can fit you in, as their Class B sits right over it. From the Hudson, ask for a Central Park transition to the East River. You can make the request while already in the Bravo or from the Exclusion (a useful second chance if you couldn't get a Bravo clearance initially). Remember: get an explicit Class B clearance before climbing into it.
 
-If you want to fly it in reverse, north up the East River and then west across the Park to the Hudson, tell ATC what you'd like to do early so they can coordinate the route. Don't assume a clearance up the East River will include a crossing of the Park.
+If you want to fly it in reverse, north up the East River and then west across the Park to the Hudson, tell ATC what you'd like to do early so they can coordinate the route. Don't assume a clearance up the East River will lead to a clearance across the Park.
 
 {{< photo src="central-park-reservoir.jpg" >}}
 
@@ -139,7 +139,7 @@ A typical round trip takes about 1 Hobbs hour. See what that costs in a club air
 
 An example call on departure if requesting the Bravo: *"Newark Tower, Skyhawk 123 out of Linden, requesting the Skyline, information [ATIS code]."*
 
-An example response: *"Skyhawk 123, Newark Tower, squawk 4321."* Once you've read back and entered the code, you may hear something along the lines of: *"Skyhawk 123 identified, [position], cleared into the Class Bravo via the VZ, Hudson northbound, VFR 1,500."*
+An example response: *"Skyhawk 123, Newark Tower, squawk 4321."* Once you've read back and entered the code, you may hear something along the lines of: *"Skyhawk 123 identified, [position], cleared into the Class Bravo via the VZ, Hudson northbound, VFR 1,500."* Again: Bravo clearance!
 
 Head toward the VZ. If you're flying the Exclusion, this will be your entry point. In our members' experience, most Bravo clearances to and from Linden are routed via the VZ as well. Be sure to adjust your course to the south to avoid clipping the Bravo shelf if you don't have a clearance.
 
@@ -147,7 +147,7 @@ Head toward the VZ. If you're flying the Exclusion, this will be your entry poin
 
 ATC may on occasion offer a shortcut to or from Linden over Staten Island, often using the [Bayonne Bridge](https://maps.app.goo.gl/4UCKhp1r43eUCFN9A) as a landmark. Our members have also been instructed to descend to or maintain 800 ft several miles from Linden, to ensure separation from heavy jet traffic departing and arriving at Newark.
 
-This is where our minimum-altitude discussion comes in. An assigned altitude may leave you too low over a congested area, and being on your way to Linden doesn't automatically make that altitude necessary for takeoff or landing.
+This is where the minimum-altitude discussion comes in. An assigned altitude may leave you too low over a congested area, and being on your way to or from Linden doesn't automatically make that altitude necessary for takeoff or landing.
 
 If you're uncomfortable with your routing, request higher, ask for a reroute, or fly a little further south, underneath the next Bravo ring, which will allow you to cross the island at a higher altitude.
 
@@ -157,7 +157,7 @@ Once you reach the VZ, follow the Exclusion procedures or your ATC clearance, an
 
 For Bravo flights, Newark typically hands you to LaGuardia near the southern tip of Manhattan. Check in with your callsign and altitude. ATC may ask how far north you want to go, so have your answer ready.
 
-Two popular routes members fly:
+Two routes that are popular with members:
 
 1. A reversal on the Hudson near the George Washington Bridge (GWB).
 2. A crossing of Central Park followed by a southbound East River leg (requires a Bravo clearance).
@@ -170,16 +170,15 @@ If you're flying the Exclusion, remember that a reversal within the corridor is 
 
 On a Bravo return, expect coordination back to Newark. If ATC can't accommodate your requested route, agree an alternative with the controller. A transition into the Hudson Exclusion needs planning; don't assume you can simply descend into whichever river corridor lies below.
 
-**Circling the Statue in the Exclusion.** The southbound leg is a natural time to include it, since the Statue sits near the western shoreline. Review the local-operation and orbit procedures above before reaching this busy spot.
+**Circling the Statue in the Exclusion.** The southbound leg is a natural time to include it, since the Statue sits near the western shoreline. Review the local-operation and orbit procedures before reaching this busy spot.
 
-**Circling the Statue in the Bravo.** You can ask: *"Tower, Skyhawk 123, requesting an orbit of the Statue, then back to Linden."* It might seem intuitive to get as close as possible, but a higher orbit in the Bravo has some advantages:
+**Circling the Statue in the Bravo.** You can ask: *"Tower, Skyhawk 123, requesting an orbit of the Statue, then back to Linden."* Members have received approval at 1,500 ft, followed by routing to the VZ, but fly the clearance you receive.
+
+It might seem intuitive to get as close as possible, but a higher orbit in the Bravo has some advantages:
 
 - In a high-wing aircraft like the C172, the wing is less likely to block the Statue as you bank around it.
 - You aren't restricted to orbiting counterclockwise, which can give right-side passengers a clearer view.
 - ATC continues providing separation and traffic advisories.
-
-Members have received approval at 1,500 ft, followed by routing to the VZ, but fly the clearance you receive.
-
 ### Back to Linden
 
 If returning via the VZ, check the surrounding airspace before turning toward Linden. Passing the bridge doesn't put every Bravo shelf behind you. If you're still under ATC control, follow the assigned route; you may instead receive a heading across Staten Island.
@@ -192,8 +191,8 @@ The airport itself can be hard to spot, especially from lower altitudes. Before 
 
 I first flew the Hudson four years ago, with an instructor. It was awesome. A lot to see, and a lot to learn.
 
-Since then I've flown it countless times: daytime, dawn, dusk, night. I like that you can see Central Park during the day, but seeing all the city lights at night is also pretty special. If I could only pick one, I'd (very narrowly) choose sunset.
+Since then I've flown it countless times: daytime, dawn, dusk, night. I like that you can see Central Park during the day, but seeing all the city lights at night is also pretty special. If I could only pick one, I'd (very narrowly) choose sunset. You get a taste of both if you time it just right.
 
-It's the perfect flight to take friends or family visiting from out of town. Linden is a pretty easy airport to get to from Manhattan using public transport, and the flight itself is also quite short from there, usually just under an hour round trip.
+It's the perfect flight to take friends or family visiting NYC from out of town. Linden is a pretty easy airport to get to from Manhattan using public transport, and the flight itself is also quite short from there, usually just under an hour round trip (Hobbs time, but a nice perk of being in the club is that flights are billed on [Tach time](/guides/club-vs-renting-near-nyc/#paying-tach-vs-hobbs)!).
 
 Flying is always a privilege, and this special bit of airspace feels like another privilege on top of that. Hats off to all the local pilots, controllers and other personnel who keep it ticking over smoothly.
