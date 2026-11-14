@@ -6,11 +6,11 @@ description: Comparing general aviation airports around New York City, including
 lede: "Where to fly general aviation around New York City, and how to get there without a car."
 ---
 
-If you live in New York City, learning to fly can seem out of reach. It's closer than you might think. Several good airports lie within an hour of Manhattan, and you can get to most of them by train. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
+If you live in New York City, learning to fly can seem out of reach. It's closer than you might think. Several good airports lie within an hour of Manhattan, and you can get to most of them by train or bus. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
 
 Below are the airports we know best, with notes on what flying there is like, how to get there, and where to rent or learn.
 
-We checked the airport facts against the [FAA Chart Supplement](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/) on 10 November 2026. Travel times are rough guesses from Midtown: driving assumes normal traffic, and train times start at Penn Station (Grand Central for Metro-North), include the taxi from the station and are based on typical schedules, so check the timetable before you go. As always, check the current Chart Supplement and NOTAMs too.
+We checked the airport facts against the [FAA Chart Supplement](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/) on 10 November 2026. Travel times are rough guesses from Midtown: driving assumes normal traffic, and transit times start at Penn Station (Grand Central for Metro-North, Port Authority for buses), include the taxi for the last stretch and are based on typical schedules, so check the timetable before you go. As always, check the current Chart Supplement and NOTAMs too.
 
 ## The four to know
 
@@ -26,7 +26,7 @@ There's food and shopping within a mile, and a shower in the terminal if you nee
 
 | | |
 |---|---|
-| By train | 45 min. NJ Transit from Penn Station to Linden (30 min), then 1.8 miles by taxi |
+| By transit | 45 min. NJ Transit from Penn Station to Linden (30 min), then 1.8 miles by taxi |
 | By car | 45 min from Midtown, about 23 miles |
 | Tower | None. CTAF 123.0 |
 | Runway | 9/27, 4,140 ft |
@@ -40,7 +40,7 @@ Morristown sees a lot of business jets, but plenty of light aircraft too, and it
 
 | | |
 |---|---|
-| By train | 75 min. NJ Transit Morristown Line from Penn Station to Morristown (60 min), then about 4 miles by taxi. At weekends trains run hourly and the trip takes about 90 min |
+| By transit | 75 min. NJ Transit Morristown Line from Penn Station to Morristown (60 min), then about 4 miles by taxi. At weekends trains run hourly and the trip takes about 90 min |
 | By car | 60 min from Midtown, about 32 miles |
 | Tower | Yes, 6:45 am–10:30 pm |
 | Runways | 5/23, 5,998 ft; 13/31, 3,997 ft |
@@ -54,7 +54,7 @@ Caldwell is busy, mostly with small planes, and sees fewer jets and helicopters 
 
 | | |
 |---|---|
-| By train | 60 min. NJ Transit Montclair–Boonton Line from Penn Station to Bay Street, Montclair (35 min), then about 8 miles by taxi. At weekends trains run every 2 hours and require a transfer. |
+| By transit | 55 min. NJ Transit bus from Port Authority to Willowbrook Mall, Wayne (40 min), then 5–15 min by taxi or rideshare. The train is slower: Montclair–Boonton Line to Bay Street, Montclair (35 min), then about 8 miles by taxi, and at weekends trains run every 2 hours and require a transfer. |
 | By car | 60 min from Midtown, about 22 miles |
 | Tower | Yes, 7 am–11 pm |
 | Runways | 4/22, 4,552 ft; 10/28, 3,719 ft |
@@ -72,7 +72,7 @@ On the ground there are several FBOs, and Farmingdale village has lots of good p
 
 | | |
 |---|---|
-| By train | 60 min. LIRR Main Line from Penn Station to Farmingdale (55 min), then about 3 miles by taxi |
+| By transit | 60 min. LIRR Main Line from Penn Station to Farmingdale (55 min), then about 3 miles by taxi |
 | By car | 60 min from Midtown, about 37 miles |
 | Tower | Yes, 7 am–11 pm |
 | Runways | 14/32, 6,833 ft; 1/19, 5,517 ft |
@@ -94,9 +94,9 @@ These take longer to reach from Manhattan, but if you live in Westchester, on Lo
 
 **Bridgeport** and **New Haven** sit on the Connecticut shore of Long Island Sound. Both have towers that keep part-time hours. You'll see Sikorsky helicopters around Bridgeport and airliners at New Haven. The flight up the Sound from the city to either one is a lovely cross-country.
 
-| Airport | By train | By car from Midtown | Tower | Longest runway | Who flies here |
+| Airport | By transit | By car from Midtown | Tower | Longest runway | Who flies here |
 |---|---|---|---|---|---|
-| Lincoln Park (N07), Lincoln Park, NJ | 75 min. NJ Transit Montclair–Boonton Line to Lincoln Park, then about 2 miles. Trains only go there in the afternoon and only come back in the morning, so you can't do it in a day | 45 min, 25 mi | None | 2,767 ft; touch-and-gos prohibited | Aero Flight School @ N07, [Liftoff Pilot Academy](https://liftoffpilotacademy.com) (Pipistrel light sport) |
+| Lincoln Park (N07), Lincoln Park, NJ | 55 min. NJ Transit bus from Port Authority to Willowbrook Mall, Wayne (40 min), then 5–15 min by taxi or rideshare. Trains to Lincoln Park only go out in the afternoon and back in the morning, so they don't work for a day trip | 45 min, 25 mi | None | 2,767 ft; touch-and-gos prohibited | Aero Flight School @ N07, [Liftoff Pilot Academy](https://liftoffpilotacademy.com) (Pipistrel light sport) |
 | Westchester County (KHPN), White Plains, NY | 60 min. Metro-North Harlem Line to White Plains, then about 6 miles | 60 min, 33 mi | Yes; Class D | 6,549 ft | [Academy of Aviation](https://www.academyofaviation.com/white-plains/), [Performance Flight](https://flypf.com) (Cirrus) |
 | Long Island MacArthur (KISP), Ronkonkoma, NY | 90 min. LIRR to Ronkonkoma, then about 3 miles | 90 min, 51 mi | Yes; Class C | 7,006 ft | — |
 | Brookhaven Calabro (KHWV), Shirley, NY | 120 min. LIRR to Babylon, then change for Mastic–Shirley, then about 3 miles. Trains past Babylon are few, and at weekends can be up to 5 hours apart | 105 min, 63 mi | None | 4,222 ft | Mid-Island Air Service |
