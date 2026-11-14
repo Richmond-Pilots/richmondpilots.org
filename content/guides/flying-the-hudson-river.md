@@ -12,7 +12,7 @@ New York, New York. Is there anything more magical than seeing the world's most 
 
 Wondering how you can do this? It's easier than you might think. If you're a licensed pilot, student, aspiring to become one, or just generally interested in flying, read on.
 
-{{< photo src="central-park-great-lawn.jpg" >}}
+{{< photo src="manhattan-from-the-cockpit.jpg" >}}
 
 ## Start with the chart
 
@@ -90,7 +90,7 @@ An example call: *"Skyhawk, VZ, one thousand one hundred, northbound."*
 - Expect plenty of company. The FAA warns of tour helicopters flying irregular patterns near the Statue at about 500 ft. Keep your eyes peeled, listen carefully and announce your intentions: *"Skyhawk, Statue, nine hundred, orbiting counterclockwise."*
 - The Newark Class B boundary lies just to the west. Take care not to drift over it.
 
-{{< photos "statue-and-ellis-island.jpg" "statue-of-liberty-above.jpg" >}}
+{{< photos "statue-of-liberty-above.jpg" "statue-and-ellis-island.jpg" >}}
 
 ## The East River Exclusion
 
@@ -111,13 +111,15 @@ Reports of approval for sightseeing flights are rare. Plan on requesting a route
 - **How to ask for it.** Give your callsign and position, and request *"Hudson northbound"* (or southbound) or *"the Skyline."*
 - **Remember "Class B clearance."** You aren't in until you hear *"cleared into the Bravo."* Until then, remain outside.
 
+{{< photos "one-world-trade-under-the-wing.jpg" "lower-manhattan-day.jpg" >}}
+
 ### Can I fly over Central Park?
 
 Yes, if LaGuardia Tower can fit you in, as their Class B sits right over it. From the Hudson, ask for a Central Park transition to the East River. You can make the request while already in the Bravo or from the Exclusion (a useful second chance if you couldn't get a Bravo clearance initially). Remember: get an explicit Class B clearance before climbing into it.
 
 If you want to fly it in reverse, north up the East River and then west across the Park to the Hudson, tell ATC what you'd like to do early so they can coordinate the route. Don't assume a clearance up the East River will lead to a clearance across the Park.
 
-{{< photo src="central-park-reservoir.jpg" >}}
+{{< photo src="central-park-great-lawn.jpg" >}}
 
 ### Congested-area minimum safe altitudes (§ 91.119): a quick refresher
 
@@ -133,7 +135,7 @@ A typical round trip takes about 1 Hobbs hour. See what that costs in a club air
 - **Beware the Bravo.** Linden sits just under the Newark Bravo, with an 800 ft lower limit. This leaves little room for an unplanned climb. Make sure your altimeter is set correctly and keep a watchful eye on it.
 - **Caution: choppers.** Linden is a base for many helicopters. Be mindful of their presence and flying characteristics.
 
-{{< photos "lower-manhattan-night.jpg" "tribute-in-light.jpg" >}}
+{{< photo src="lower-manhattan-night-cockpit.jpg" >}}
 
 ### Leaving Linden
 
@@ -164,7 +166,7 @@ Two routes that are popular with members:
 
 If you're flying the Exclusion, remember that a reversal within the corridor is a local operation, not an end-to-end transient flight. Plan it accordingly rather than turning across the transient flow.
 
-{{< photo src="george-washington-bridge.jpg" >}}
+{{< photos "george-washington-bridge.jpg" "central-park-under-the-wing.jpg" >}}
 
 ### Southbound, and perhaps a Statue orbit
 
@@ -179,6 +181,8 @@ It might seem intuitive to get as close as possible, but a higher orbit in the B
 - In a high-wing aircraft like the C172, the wing is less likely to block the Statue as you bank around it.
 - You aren't restricted to orbiting counterclockwise, which can give right-side passengers a clearer view.
 - ATC continues providing separation and traffic advisories.
+{{< photo src="liberty-island.jpg" >}}
+
 ### Back to Linden
 
 If returning via the VZ, check the surrounding airspace before turning toward Linden. Passing the bridge doesn't put every Bravo shelf behind you. If you're still under ATC control, follow the assigned route; you may instead receive a heading across Staten Island.
@@ -188,6 +192,8 @@ The [Arthur Kill power station](https://maps.app.goo.gl/c7xpPRkTCtGkXBH49) stack
 The airport itself can be hard to spot, especially from lower altitudes. Before tackling the trip on your own, consider a familiarization flight with someone who knows the area, especially if you plan to return at night.
 
 ## A member's story
+
+{{< photos "lower-manhattan-sunset.jpg" "midtown-at-sunset.jpg" >}}
 
 I first flew the Hudson four years ago, with an instructor. It was awesome. A lot to see, and a lot to learn.
 
