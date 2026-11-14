@@ -1,0 +1,5 @@
+{{- /* Site-relative links like /membership/ must also work from a /previews/<branch>/ subfolder. */ -}}
+{{- $dest := .Destination -}}
+{{- if strings.HasPrefix $dest "/" }}{{ $dest = $dest | strings.TrimPrefix "/" | relURL }}{{ end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- /**/ -}}

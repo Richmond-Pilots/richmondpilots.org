@@ -1,0 +1,25 @@
+{{- $title := .Title -}}
+{{- if .IsHome }}{{ $title = .Params.seo_title }}{{ else }}{{ $title = printf "%s | Richmond Pilots" .Title }}{{ end -}}
+{{- $description := replace (.Description | default site.Home.Description) "{rate_range}" (partial "rate-range.html" .) -}}
+{{- $image := partial "social-image.html" . -}}
+{{- $imageAlt := .Params.image_alt | default site.Params.defaultImageAlt -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:site_name" content="Richmond Pilots">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $image }}">
+<meta property="og:image:alt" content="{{ $imageAlt }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+<meta name="twitter:image:alt" content="{{ $imageAlt }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+<link rel="stylesheet" href="{{ "css/theme.css" | relURL }}?v={{ substr (os.ReadFile "static/css/theme.css" | md5) 0 8 }}">
+{{ if .IsHome }}{{ partial "schema.html" . }}{{ end }}

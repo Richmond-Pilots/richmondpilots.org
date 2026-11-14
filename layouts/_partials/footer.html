@@ -1,0 +1,27 @@
+{{- $club := hugo.Data.club -}}
+<footer class="site-footer"><div class="wrap">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h2>Richmond Pilots</h2>
+      <p>A 501(c)(7) non-profit, equity-based flying club at Linden Airport (KLDJ), NJ, in continuous operation since 1967.</p>
+    </div>
+    <div class="footer-col">
+      <h2>Contact</h2>
+      <p>
+        {{- with $club.contact.address }}{{ range . }}{{ . }}<br>{{ end }}{{ else }}{{ partial "todo.html" "Club address to be confirmed" }}<br>{{ end -}}
+        {{- with $club.contact.email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ partial "todo.html" "Club email to be confirmed" }}{{ end -}}
+      </p>
+    </div>
+    <div class="footer-col">
+      <h2>For members</h2>
+      <ul>
+        {{- range $club.aircraft }}
+        <li><a href="{{ .weight_balance | relURL }}">{{ .tail }} weight and balance</a></li>
+        {{- end }}
+        <li><a href="{{ "Avtools/TachSplitCalc.html" | relURL }}">Tach split calculator</a></li>
+        <li><a href="{{ "docs/RPC_Membership_Application.pdf" | relURL }}" download>Membership application</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-note">Rates last updated {{ time.Format "January 2006" $club.rates_effective }}.</p>
+</div></footer>

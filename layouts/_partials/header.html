@@ -1,0 +1,42 @@
+{{- $current := . -}}
+{{- $hasGuides := where site.RegularPages "Section" "guides" -}}
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="{{ "" | relURL }}"><img class="brand-logo" src="{{ "img/logo.jpg" | relURL }}" alt="" width="640" height="341"><span class="brand-name">Richmond Pilots</span></a>
+  {{- /* Shown on phones only, once the script below has run. Without JavaScript the menu stays open. */}}
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu" hidden>
+    <svg class="nav-toggle-open" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <svg class="nav-toggle-close" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <nav class="site-nav" id="site-nav" aria-label="Main"><ul>
+    {{- range site.Menus.main }}
+    {{- if and (eq .Name "Guides") (not $hasGuides) }}{{ continue }}{{ end }}
+    {{- if eq .PageRef "/" }}{{ continue }}{{ end }}
+    <li><a href="{{ .PageRef | strings.TrimPrefix "/" | relURL }}{{ if ne .PageRef "/" }}/{{ end }}"{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+    {{- end }}
+    {{- /* A copy of the call-to-action button, shown inside the phone menu only. */}}
+    <li class="nav-menu-cta"><a class="btn btn-primary" href="{{ partial "cta-url.html" . }}">{{ hugo.Data.club.cta_label }}</a></li>
+  </ul></nav>
+  <a class="btn btn-primary nav-cta" href="{{ partial "cta-url.html" . }}">{{ hugo.Data.club.cta_label }}</a>
+</div></header>
+<script>
+(function () {
+  var button = document.querySelector('.nav-toggle');
+  var nav = document.getElementById('site-nav');
+  if (!button || !nav) return;
+  document.documentElement.classList.add('has-nav-toggle');
+  button.hidden = false;
+  function setOpen(open) {
+    button.setAttribute('aria-expanded', String(open));
+    nav.classList.toggle('is-open', open);
+  }
+  button.addEventListener('click', function () {
+    setOpen(button.getAttribute('aria-expanded') !== 'true');
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+      setOpen(false);
+      button.focus();
+    }
+  });
+})();
+</script>

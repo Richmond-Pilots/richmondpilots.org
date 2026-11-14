@@ -1,0 +1,79 @@
+# Alt text, optional caption, and credit for each photo in assets/photos/, keyed by file name without ".jpg".
+# Add photos at about 2400px wide; Hugo makes smaller copies for phones automatically.
+# Only add photos of people with their OK. Children only with a parent's OK.
+
+members-plane-wash-2023:
+  alt: Richmond Pilots members on the ramp at Linden Airport, between the club's two Cessna 172s
+  credit: Dave Gramatges
+n38pd-on-ramp:
+  caption: N38PD on the ramp at Linden
+  alt: Club Cessna 172S N38PD on the ramp at Linden Airport during a plane wash
+  credit: Dave Gramatges
+n38pd-full:
+  caption: N38PD, Cessna 172S
+  alt: Club Cessna 172S N38PD parked on the ramp at Linden Airport
+  credit: Dave Gramatges
+n5272r-full:
+  caption: N5272R, Cessna 172M
+  alt: Club Cessna 172M N5272R parked on the ramp, with N38PD behind it
+  credit: Dave Gramatges
+member-washing-n5272r:
+  alt: A member on a ladder washing the wing of club Cessna 172M N5272R
+  credit: Dave Gramatges
+in-flight-near-linden:
+  alt: View over the nose of a Cessna 172 in flight near Linden Airport
+  credit: Dave Gramatges
+plane-wash-barbecue-2018:
+  alt: Members around the grill at the 2018 spring plane wash at Linden Airport
+  credit: Dave Gramatges
+n5272r-sunset:
+  caption: N5272R at sunset, Heritage Field (KPTW), Pottstown, PA
+  alt: Club Cessna 172M N5272R on the ramp at Heritage Field in Pottstown, Pennsylvania, at sunset, with the Limerick cooling towers on the horizon
+  credit: Jorge Lembert
+teterboro-aerial:
+  caption: Teterboro Airport, with Manhattan on the horizon
+  alt: Aerial view of Teterboro Airport in New Jersey, with hangars and business jets on the ramps and the Manhattan skyline in the distance
+  credit: Designism, CC0, via Wikimedia Commons
+lower-manhattan-night:
+  caption: Lower Manhattan at night, from over the Hudson
+  alt: Night aerial view of Lower Manhattan from over the Hudson River, with One World Trade Center lit up above the Battery Park City waterfront
+  credit: Larry Ferreira
+yankee-stadium-aerial:
+  caption: Yankee Stadium in the Bronx
+  alt: Aerial view of Yankee Stadium in the Bronx, surrounded by apartment buildings
+  credit: Larry Ferreira
+tribute-in-light:
+  caption: The Tribute in Light beside One World Trade Center, September 11
+  alt: Night aerial view of Lower Manhattan with the twin blue beams of the Tribute in Light rising beside One World Trade Center
+  credit: Larry Ferreira
+above-the-clouds-172:
+  alt: View from a Cessna 172 cockpit of a solid cloud layer below, with the wing strut and underside of the wing in the foreground
+  credit: Larry Ferreira
+lower-manhattan-day:
+  caption: Lower Manhattan from over the Upper Bay
+  alt: Lower Manhattan and One World Trade Center under a blue sky with scattered clouds, seen from the air over the harbor, with ferries and sailboats on the water
+  credit: Brian Donohue
+statue-of-liberty-above:
+  caption: The Statue of Liberty
+  alt: The Statue of Liberty and its star-shaped base on Liberty Island, seen from above, with a tour ferry at the dock
+  credit: Brian Donohue
+statue-and-ellis-island:
+  caption: Liberty Island and Ellis Island, with Jersey City behind
+  alt: Liberty Island and Ellis Island in the harbor, seen past the wing strut of a Cessna 172, with Liberty State Park and Jersey City beyond
+  credit: Brian Donohue
+east-river-bridges:
+  caption: The Brooklyn and Manhattan bridges and Lower Manhattan, flown in the Bravo
+  alt: View under a Cessna 172 wing looking south down the East River, with the Manhattan and Brooklyn bridges, Lower Manhattan's skyline and the Statue of Liberty in the distance
+  credit: Brian Donohue
+central-park-reservoir:
+  caption: Central Park and the reservoir, looking northeast
+  alt: Central Park's reservoir and Great Lawn seen under the wing of a Cessna 172, with the Upper East Side and the East River beyond
+  credit: Brian Donohue
+central-park-great-lawn:
+  caption: Central Park, looking south toward Midtown
+  alt: Central Park's Great Lawn below a Cessna 172 wing, with the Midtown Manhattan skyline and the Hudson River beyond
+  credit: Brian Donohue
+george-washington-bridge:
+  caption: The George Washington Bridge, a common place to turn back
+  alt: The George Washington Bridge's New Jersey tower and the Hudson River seen under the wing of a Cessna 172, with Fort Lee beyond
+  credit: Brian Donohue

@@ -1,0 +1,6 @@
+{{- $m := hugo.Data.club.membership -}}
+<dl class="facts">
+<div><dt>Monthly fixed expenses</dt><dd>${{ $m.monthly }}</dd></div>
+<div><dt>Admission fee (non-refundable)</dt><dd>${{ lang.FormatNumberCustom 0 $m.admission }}</dd></div>
+<div><dt>Deposit</dt><dd>${{ lang.FormatNumberCustom 0 $m.deposit }}</dd></div>
+</dl>
