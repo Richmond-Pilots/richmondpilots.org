@@ -58,7 +58,7 @@ The Hudson Exclusion is a combination of Class E and Class G airspace. Pilots fl
 
 ### The Exclusion has two layers
 
-- **Transient:** flying the full length from one end to the other, at 1,000 ft MSL up to the Class B floor. This is the layer for most fixed-wing pilots passing through. Don't climb, descend or make big heading changes.
+- **Transient:** flying the full length from one end to the other, at 1,000 ft MSL up to, but not including, the Class B floor at 1,300 ft. This is the layer for most fixed-wing pilots passing through. Don't climb, descend or make big heading changes.
 - **Local:** anything else below 1,000 ft MSL, including sightseeing, circling and helicopter tours. Expect aircraft climbing, descending, turning and flying slowly.
 
 ### The rules (14 CFR 93.351 and 93.352)
