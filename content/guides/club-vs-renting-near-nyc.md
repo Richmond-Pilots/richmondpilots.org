@@ -3,6 +3,7 @@ title: Flying club vs. flight school near NYC
 draft: true
 reviewed: 2026-11-10
 description: "A comparison of flying clubs and flight schools near NYC: hourly costs, multi-day trips, aircraft availability, and more."
+image: members-plane-wash-2023.jpg
 lede: "How flying clubs and flight schools compare on cost, trips, and availability."
 ---
 

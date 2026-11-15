@@ -24,11 +24,11 @@ The club has CFI/CFIIs available weekdays and weekends. Additionally, any non-me
 {{< /faq >}}
 
 {{< faq q="What is an equity flying club?" >}}
-{{< todo "Answer to be written by a member" >}}
+In an equity club, the members own the club and its aircraft together, rather than renting from a business. Your deposit buys you into the club, monthly dues cover the fixed costs such as insurance and tie-downs, and you pay an hourly rate only when you fly. Richmond Pilots is a non-profit, so rates only need to cover what it costs to run the planes. Members also vote on how the club is run.
 {{< /faq >}}
 
 {{< faq q="How do I get to Linden Airport from Manhattan or Staten Island?" >}}
-{{< todo "Answer to be written by a member" >}}
+From Manhattan, take NJ Transit from Penn Station to Linden (about 30 minutes). The airport is 1.8 miles from the station, a short taxi ride or bike ride. Door to door it takes about 45 minutes, and about the same by car from Midtown. From Staten Island, Linden is just across the Goethals Bridge. See [Best GA airports near NYC](/guides/best-ga-airports-near-nyc/) for more on getting there without a car.
 {{< /faq >}}
 
 {{< faq q="Is a flying club cheaper than renting from a flight school?" >}}

@@ -3,6 +3,7 @@ title: Best GA airports near NYC
 draft: true
 reviewed: 2026-11-10
 description: Comparing general aviation airports around New York City, including Linden, Morristown, Caldwell and Republic, and how to get to each without a car.
+image: teterboro-aerial.jpg
 lede: "Where to fly general aviation around New York City, and how to get there without a car."
 ---
 

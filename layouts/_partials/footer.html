@@ -13,13 +13,23 @@
       </p>
     </div>
     <div class="footer-col">
+      <h2>Explore</h2>
+      <ul>
+        {{- if where site.RegularPages "Section" "guides" }}
+        <li><a href="{{ "guides/" | relURL }}">Guides</a></li>
+        {{- end }}
+        <li><a href="{{ "aircraft-and-rates/" | relURL }}">Aircraft and rates</a></li>
+        <li><a href="{{ "membership/" | relURL }}">Become a member</a></li>
+        <li><a href="{{ "docs/RPC_Membership_Application.pdf" | relURL }}" download>Membership application</a></li>
+        <li><a href="{{ "faq/" | relURL }}">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
       <h2>For members</h2>
       <ul>
         {{- range $club.aircraft }}
         <li><a href="{{ .weight_balance | relURL }}">{{ .tail }} weight and balance</a></li>
         {{- end }}
-        <li><a href="{{ "Avtools/TachSplitCalc.html" | relURL }}">Tach split calculator</a></li>
-        <li><a href="{{ "docs/RPC_Membership_Application.pdf" | relURL }}" download>Membership application</a></li>
       </ul>
     </div>
   </div>
