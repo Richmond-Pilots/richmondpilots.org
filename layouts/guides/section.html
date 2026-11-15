@@ -5,11 +5,11 @@
 </div></header>
 <section class="section"><div class="wrap">
   <div class="grid">
-    {{ range .RegularPages }}
+    {{ range .RegularPages }}{{ $p := . }}
     <article class="card">
       {{- with .Params.image }}{{ with resources.Get (printf "photos/%s" .) }}
       {{- $t := .Fill "640x427 q80" }}
-      <a class="card-thumb" href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" alt="" width="{{ $t.Width }}" height="{{ $t.Height }}" loading="lazy"></a>
+      <a class="card-thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" alt="" width="{{ $t.Width }}" height="{{ $t.Height }}" loading="lazy"></a>
       {{- end }}{{ end }}
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ with .Params.lede }}<p>{{ . }}</p>{{ end }}
