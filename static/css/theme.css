@@ -2,7 +2,7 @@
    (GOV.UK Design System, USWDS) and small community sites like recurse.com.
    One typeface, one accent (the badge teal, darkened for contrast), rules instead of boxes.
    All design tokens live in :root; swap this file to change the look. */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400..800;1,400&display=swap");
+/* Public Sans is loaded from Google Fonts in layouts/_partials/head.html, so the browser can fetch it early. */
 
 :root {
   --color-bg: #ffffff;
