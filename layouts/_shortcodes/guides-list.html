@@ -3,5 +3,4 @@
 <div class="grid">
 {{- range .ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
 </div>
-<p><a href="{{ "guides/" | relURL }}">All guides</a></p>
 {{- end -}}
