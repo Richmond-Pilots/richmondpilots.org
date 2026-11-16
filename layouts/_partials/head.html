@@ -1,5 +1,5 @@
-{{- $title := .Title -}}
-{{- if .IsHome }}{{ $title = .Params.seo_title }}{{ else }}{{ $title = printf "%s | Richmond Pilots" .Title }}{{ end -}}
+{{- /* seo_title in front matter replaces the whole browser and search title. */ -}}
+{{- $title := .Params.seo_title | default (printf "%s | Richmond Pilots" .Title) -}}
 {{- $description := replace (.Description | default site.Home.Description) "{rate_range}" (partial "rate-range.html" .) -}}
 {{- $image := partial "social-image.html" . -}}
 {{- $photoAlt := "" -}}

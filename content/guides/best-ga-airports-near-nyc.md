@@ -1,13 +1,14 @@
 ---
 date: 2026-11-16 # First published
 title: Best GA airports near NYC
+seo_title: Best General Aviation Airports Near NYC | Richmond Pilots
 reviewed: 2026-11-10
-description: Comparing general aviation airports around New York City, including Linden, Morristown, Caldwell and Republic, and how to get to each without a car.
+description: "General aviation airports near New York City compared: Linden, Morristown, Caldwell, Republic and more, with flight schools, flying clubs, and how to get there without a car."
 image: teterboro-aerial.jpg
 lede: "Where to fly general aviation around New York City, and how to get there without a car."
 ---
 
-If you live in New York City, learning to fly can seem out of reach. It's closer than you might think. Several good airports lie within an hour of Manhattan, and you can get to most of them by train or bus. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
+If you live in New York City, learning to fly can seem out of reach. It's closer than you might think. Several good general aviation (GA) airports lie within an hour of Manhattan, and you can get to most of them by train or bus. Plenty of our members don't own a car, and a few of us bring a folding bike for the last stretch from the station.
 
 Below are the airports we know best, with notes on what flying there is like, how to get there, and where to rent or learn.
 

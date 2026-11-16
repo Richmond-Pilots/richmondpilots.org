@@ -1,15 +1,16 @@
 ---
 date: 2026-11-16 # First published
 title: Flying club vs. flight school near NYC
+seo_title: Flying Club vs. Renting a Plane Near NYC | Richmond Pilots
 reviewed: 2026-11-10
-description: "A comparison of flying clubs and flight schools near NYC: hourly costs, multi-day trips, aircraft availability, and more."
+description: "Renting a plane near NYC? How a flying club compares with a flight school on Cessna 172 rental rates, tach vs. Hobbs billing, multi-day trips, and availability."
 image: members-plane-wash-2023.jpg
 lede: "How flying clubs and flight schools compare on cost, trips, and availability."
 ---
 
 ## Overview
 
-Several [airports near NYC](/guides/best-ga-airports-near-nyc/) have flight schools and flying clubs that allow for renting aircraft.
+If you want to rent a plane near NYC, several [airports near the city](/guides/best-ga-airports-near-nyc/) have flight schools and flying clubs with Cessna 172s and other aircraft.
 
 Joining a flying club and renting from a flight school differ in a few important ways:
 

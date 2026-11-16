@@ -1,8 +1,9 @@
 ---
 date: 2026-11-16 # First published
 title: Flying the Hudson River corridor
+seo_title: Hudson River SFRA and Skyline Route Guide | Richmond Pilots
 reviewed: 2026-11-14
-description: How to fly the Hudson River past Manhattan in a light aircraft, including the Hudson River SFRA rules, the Skyline Route through Class B, and flying it from Linden (KLDJ).
+description: "How to fly the Hudson River VFR corridor past Manhattan: Hudson River SFRA rules, reporting points, the Skyline Route through Class B, and departing from Linden (KLDJ), NJ."
 image: manhattan-from-the-cockpit.jpg
 lede: "Seeing New York from the air, and how to do it from Linden."
 ---
@@ -11,7 +12,7 @@ lede: "Seeing New York from the air, and how to do it from Linden."
 
 New York, New York. Is there anything more magical than seeing the world's most iconic city from the air? Seeing it from the air at sunset, of course! Or perhaps seeing it from the air at night.
 
-Wondering how you can do this? It's easier than you might think. If you're a licensed pilot, student, aspiring to become one, or just generally interested in flying, read on.
+Wondering how you can do this? It's easier than you might think: the Hudson River VFR corridor lets you fly right past Manhattan without a clearance. If you're a licensed pilot, student, aspiring to become one, or just generally interested in flying, read on.
 
 {{< photo src="manhattan-from-the-cockpit.jpg" >}}
 
