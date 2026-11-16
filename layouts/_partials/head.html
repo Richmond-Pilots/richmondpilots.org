@@ -33,3 +33,4 @@
 <link rel="stylesheet" href="{{ "css/theme.css" | relURL }}?v={{ substr (os.ReadFile "static/css/theme.css" | md5) 0 8 }}">
 {{ if .IsHome }}{{ partial "schema.html" . }}{{ end }}
 {{- if and .IsPage (eq .Section "guides") }}{{ partial "schema-article.html" . }}{{ end }}
+{{- if .HasShortcode "faq" }}{{ partial "schema-faq.html" . }}{{ end }}
