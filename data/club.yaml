@@ -1,0 +1,46 @@
+# The one place for club facts. Pages and search metadata read from this file,
+# so changing a rate here changes it everywhere.
+
+rates_effective: 2026-05-01
+
+aircraft:
+  - model: Cessna 172M
+    short_model: C172M
+    tail: N5272R
+    year: 1974
+    engine: Lycoming, 160 hp
+    rate: 150
+    weight_balance: docs/WB_5272R.xlsx
+    avionics: Dual Garmin G5, Garmin GTN 650Xi, Garmin GNC 255, JPI EDM 730   # Optional. The column appears once any aircraft has a value.
+  - model: Cessna 172S
+    short_model: C172S
+    tail: N38PD
+    year: 2000
+    engine: Lycoming, 180 hp
+    rate: 165
+    weight_balance: docs/WB_38PD.xlsx
+    avionics: Dual Garmin G5, Garmin GTN 650Xi, Garmin GNC 215, JPI EDM 730
+
+membership:
+  monthly: 100
+  admission: 1000
+  deposit: 2550
+
+meeting:
+  who: Pilots (active and retired), Members, Prospective Members and Guests
+  when: 2nd Tuesday of the month at 7:30 pm
+  place: Panini Grill
+  place_url: https://maps.app.goo.gl/rkuggzLRsCaLRs8C6
+  city: Staten Island
+  region: NY
+
+# Leave a value empty until the club decides it. Empty values show a highlighted
+# placeholder, and the production deploy refuses to run while any placeholder is live.
+contact:
+  email: contact@richmondpilots.org
+  address:             # One list item per line
+    - 1101 W Edgar Rd
+    - Linden, NJ 07036
+  inquiry_form_url: "" # Link to the waiting list inquiry form
+
+cta_label: Become a Member

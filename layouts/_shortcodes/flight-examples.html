@@ -1,0 +1,17 @@
+{{- /* Cost of the example flights in data/rentals.yaml for the example aircraft:
+club tach billing against the typical wet Hobbs rental rate for the same model. */ -}}
+{{- $d := hugo.Data.rentals -}}
+{{- $ratio := float $d.tach_to_hobbs -}}
+{{- $match := where (partial "rental-rows.html" .) "club.short_model" $d.example_aircraft -}}
+{{- if not $match }}{{ errorf "data/rentals.yaml: example_aircraft %q needs a club aircraft and a typical_rates entry" $d.example_aircraft }}{{ end -}}
+{{- $row := index $match 0 -}}
+<div class="table-scroll"><table class="data-table">
+<thead><tr><th scope="col">Flight</th><th scope="col">Hobbs</th><th scope="col">Tach (est.)</th><th scope="col">Flight School</th><th scope="col" class="is-club">Richmond Pilots</th></tr></thead>
+<tbody>
+{{- range $d.examples }}
+{{- $hobbs := float .hobbs }}{{ $tach := mul $hobbs $ratio }}
+<tr><th scope="row">{{ .flight }}</th><td data-label="Hobbs">{{ lang.FormatNumberCustom 1 $hobbs }} hours</td><td data-label="Tach (est.)">{{ lang.FormatNumberCustom 1 $tach }} hours</td><td data-label="Flight School">${{ lang.FormatNumberCustom 0 (mul $hobbs $row.rental) }}</td><td class="is-club" data-label="Richmond Pilots">${{ lang.FormatNumberCustom 0 (mul $tach $row.club.rate) }}</td></tr>
+{{- end }}
+</tbody>
+</table></div>
+<p class="table-note">Costs for a {{ $row.club.model }}: Richmond Pilots at ${{ $row.club.rate }} per tach hour, a flight school at ${{ $row.rental }} per Hobbs hour.</p>

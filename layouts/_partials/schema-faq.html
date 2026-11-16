@@ -1,0 +1,14 @@
+{{- /* schema.org FAQPage built from the page's faq shortcodes. Rendering .Content
+first runs the shortcodes, which store each question and answer. */ -}}
+{{- $_ := .Content -}}
+{{- with .Store.Get "faq" -}}
+{{- $items := slice -}}
+{{- $seen := slice -}}
+{{- range . -}}
+  {{- if not (in $seen .q) -}}
+    {{- $seen = $seen | append .q -}}
+    {{- $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+  {{- end -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify | safeJS }}</script>
+{{- end -}}

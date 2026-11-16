@@ -1,0 +1,6 @@
+{{- $m := hugo.Data.club.meeting -}}
+<dl class="facts">
+<div><dt>Who</dt><dd>{{ $m.who }}</dd></div>
+<div><dt>When</dt><dd>{{ $m.when }}</dd></div>
+<div><dt>Where</dt><dd><a href="{{ $m.place_url }}">{{ $m.place }}</a> in {{ $m.city }}, {{ $m.region }}</dd></div>
+</dl>

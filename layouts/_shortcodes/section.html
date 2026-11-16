@@ -1,0 +1,7 @@
+<section class="section{{ if .Get "alt" }} section-alt{{ end }}"{{ with .Get "id" }} id="{{ . }}"{{ end }}><div class="wrap">
+{{ with .Get "title" }}<h2>{{ . }}</h2>{{ end }}
+{{ with .Get "intro" }}<p class="section-intro">{{ . }}</p>{{ end }}
+<div class="section-body">
+{{ .Inner | .Page.RenderString (dict "display" "block") }}
+</div>
+</div></section>

@@ -1,0 +1,15 @@
+{{- /* Site-relative links like /membership/ must also work from a /previews/<branch>/ subfolder.
+       A link to a page that isn't built (a draft, in production) renders as plain text instead of a 404. */ -}}
+{{- $dest := .Destination -}}
+{{- $live := true -}}
+{{- if strings.HasPrefix $dest "/" -}}
+  {{- $path := index (split (index (split $dest "#") 0) "?") 0 -}}
+  {{- if and (not (strings.Contains (path.Base $path) ".")) (not (site.GetPage $path)) }}{{ $live = false }}{{ end -}}
+  {{- $dest = $dest | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}
+{{- if $live -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- else -}}
+{{ .Text }}
+{{- end -}}
+{{- /**/ -}}

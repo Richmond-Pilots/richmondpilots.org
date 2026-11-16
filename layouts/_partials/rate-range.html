@@ -1,0 +1,5 @@
+{{- $rates := slice -}}
+{{- range hugo.Data.club.aircraft }}{{ $rates = $rates | append .rate }}{{ end -}}
+{{- $low := index (sort $rates) 0 -}}
+{{- $high := index (sort $rates "value" "desc") 0 -}}
+{{- if eq $low $high }}${{ $low }}{{ else }}${{ $low }}–${{ $high }}{{ end -}}

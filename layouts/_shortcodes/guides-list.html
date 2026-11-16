@@ -1,0 +1,6 @@
+{{- /* Cards for every published guide, newest first. */ -}}
+{{- with where site.RegularPages "Section" "guides" -}}
+<div class="grid">
+{{- range .ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
+</div>
+{{- end -}}

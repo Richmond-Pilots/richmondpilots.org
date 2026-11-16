@@ -1,0 +1,6 @@
+{{- $answer := .Inner | .Page.RenderString (dict "display" "block") -}}
+{{- /* Saved for the FAQPage structured data in layouts/_partials/schema-faq.html. */ -}}
+{{- .Page.Store.Add "faq" (slice (dict "q" (.Get "q") "a" ($answer | replaceRE `<[^>]+>` " " | htmlUnescape | replaceRE `\s+` " " | replaceRE ` ([.,;:])` "$1" | strings.TrimSpace))) -}}
+<details class="faq"><summary>{{ .Get "q" }}</summary>
+{{ $answer }}
+</details>

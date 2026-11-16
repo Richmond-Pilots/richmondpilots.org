@@ -1,0 +1,7 @@
+{{- /* The range of club savings against typical rental rates, e.g. "41–44%". */ -}}
+{{- $s := slice -}}
+{{- range partial "rental-rows.html" . }}{{ $s = $s | append (math.Round .savings) }}{{ end -}}
+{{- $s = sort $s -}}
+{{- $lo := index $s 0 -}}
+{{- $hi := index $s (sub (len $s) 1) -}}
+{{- if eq $lo $hi }}{{ $lo }}%{{ else }}{{ $lo }}–{{ $hi }}%{{ end -}}

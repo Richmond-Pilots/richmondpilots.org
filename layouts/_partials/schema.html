@@ -1,0 +1,63 @@
+{{- /* schema.org JSON-LD. Prices and meeting details come from data/club.yaml. */ -}}
+{{- $club := hugo.Data.club -}}
+{{- $base := "https://richmondpilots.org/" -}}
+{{- $validFrom := time.Format "2006-01-02" $club.rates_effective -}}
+{{- $offers := slice -}}
+{{- range $club.aircraft -}}
+  {{- $offers = $offers | append (dict
+    "@type" "Offer"
+    "name" (printf "%s %s rental (members)" .model .tail)
+    "itemOffered" (dict "@type" "Service" "name" (printf "%s aircraft rental, tach time, wet" .model))
+    "priceSpecification" (dict "@type" "UnitPriceSpecification" "price" .rate "priceCurrency" "USD" "unitCode" "HUR" "validFrom" $validFrom)
+  ) -}}
+{{- end -}}
+{{- $m := $club.membership -}}
+{{- $offers = $offers | append (dict
+  "@type" "Offer"
+  "name" "Club membership"
+  "description" (printf "$%s non-refundable admission fee, $%s refundable deposit, and $%d per month fixed expenses." (lang.FormatNumberCustom 0 $m.admission) (lang.FormatNumberCustom 0 $m.deposit) $m.monthly)
+  "priceSpecification" (slice
+    (dict "@type" "PriceSpecification" "name" "Admission fee (non-refundable)" "price" $m.admission "priceCurrency" "USD")
+    (dict "@type" "PriceSpecification" "name" "Deposit (refundable after 3 years, pro-rated before)" "price" $m.deposit "priceCurrency" "USD")
+    (dict "@type" "UnitPriceSpecification" "name" "Monthly fixed expenses" "price" $m.monthly "priceCurrency" "USD" "unitCode" "MON")
+  )
+) -}}
+{{- $org := dict
+  "@type" (slice "SportsClub" "NGO")
+  "@id" (printf "%s#club" $base)
+  "name" "Richmond Pilots"
+  "alternateName" (slice "Richmond Pilots Flying Club" "Richmond Pilots Associates" "Richmond Pilots Corp")
+  "url" $base
+  "logo" (printf "%simg/logo-square.png" $base)
+  "image" (partial "social-image.html" site.Home)
+  "description" "Non-profit, member-owned equity flying club operating two instrument-capable Cessna 172s at Linden Airport (KLDJ), New Jersey. Founded in 1967 at Miller Field, Staten Island."
+  "foundingDate" "1967"
+  "foundingLocation" (dict "@type" "Place" "name" "Miller Field, Staten Island, NY")
+  "nonprofitStatus" "Nonprofit501c7"
+  "sport" "General aviation"
+  "location" (dict "@type" "Airport" "name" "Linden Airport" "icaoCode" "KLDJ" "address" (dict "@type" "PostalAddress" "addressLocality" "Linden" "addressRegion" "NJ" "addressCountry" "US"))
+  "areaServed" (slice "New York City" "Staten Island" "New Jersey")
+  "sameAs" (slice "https://airnav.com/airport/KLDJ/RICHMOND_PILOTS/link" "https://flightschools.fyi/flight-schools/richmond-pilots-kldj/")
+  "makesOffer" $offers
+  "event" (dict "@id" (printf "%s#meeting" $base))
+-}}
+{{- with $club.contact.email }}{{ $org = merge $org (dict "email" .) }}{{ end -}}
+{{- $event := dict
+  "@type" "Event"
+  "@id" (printf "%s#meeting" $base)
+  "name" "Richmond Pilots monthly club meeting"
+  "description" "Monthly meeting open to pilots, members, prospective members and guests."
+  "organizer" (dict "@id" (printf "%s#club" $base))
+  "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+  "isAccessibleForFree" true
+  "eventSchedule" (dict "@type" "Schedule" "repeatFrequency" "P1M" "byDay" "https://schema.org/Tuesday" "byMonthWeek" 2 "startTime" "19:30" "scheduleTimezone" "America/New_York")
+  "location" (dict "@type" "Place" "name" $club.meeting.place "address" (dict "@type" "PostalAddress" "addressLocality" $club.meeting.city "addressRegion" $club.meeting.region "addressCountry" "US"))
+-}}
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" (printf "%s#website" $base)
+  "url" $base
+  "name" "Richmond Pilots"
+  "publisher" (dict "@id" (printf "%s#club" $base))
+-}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $org $event $website) | jsonify | safeJS }}</script>

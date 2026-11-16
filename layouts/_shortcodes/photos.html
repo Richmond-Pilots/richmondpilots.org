@@ -1,0 +1,4 @@
+{{- /* Side-by-side photos: {{< photos "a.jpg" "b.jpg" >}} */ -}}
+<div class="photo-grid">
+{{- range .Params }}{{ partial "figure.html" (dict "src" . "sizes" "(max-width: 600px) 100vw, 520px") }}{{ end -}}
+</div>

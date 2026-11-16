@@ -1,0 +1,18 @@
+{{- /* Pairs each club aircraft with the typical rental rate for the same model in
+data/rentals.yaml, and works out the club's cost per Hobbs hour and the saving. */ -}}
+{{- $ratio := float hugo.Data.rentals.tach_to_hobbs -}}
+{{- $rows := slice -}}
+{{- range $club := hugo.Data.club.aircraft -}}
+  {{- with where hugo.Data.rentals.typical_rates "compares_to" $club.short_model -}}
+    {{- $rental := (index . 0).rate -}}
+    {{- $clubHobbs := mul (float $club.rate) $ratio -}}
+    {{- $rows = $rows | append (dict
+      "club" $club
+      "rental" $rental
+      "clubHobbs" $clubHobbs
+      "savings" (mul (sub 1.0 (div $clubHobbs (float $rental))) 100)
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $rows }}{{ errorf "data/rentals.yaml: no typical_rates match a short_model in data/club.yaml" }}{{ end -}}
+{{- return $rows -}}
