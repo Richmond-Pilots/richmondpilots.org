@@ -1,6 +1,6 @@
 ---
+date: 2026-11-16 # First published
 title: Flying the Hudson River corridor
-draft: true
 reviewed: 2026-11-14
 description: How to fly the Hudson River past Manhattan in a light aircraft, including the Hudson River SFRA rules, the Skyline Route through Class B, and flying it from Linden (KLDJ).
 image: manhattan-from-the-cockpit.jpg
